@@ -13,6 +13,7 @@ It’s my Final Year Project — a full-stack intelligent assistant that answers
 - 🛠️ Flask + SQLite + HTML/CSS/JS
 
 > Built completely from scratch — with love, frustration, failure, and learning.
+> ⚠️ This version is not production-ready. It’s a working prototype under development, with known UI issues and partial database content.
 
 ---
 
