@@ -32,7 +32,7 @@ print("Timetable Columns:", timetable_df.columns.tolist())
 # openai.api_key = "MLIRHU2hB1HgFX7T7tUK2QDVO2AOU2l7_iiMFxc7Eo4oupcZNYuuyt07ScY6aiM6gMKxT4VT3BlbkFJaZpOG9Zf"
 
 # ========== Gemini Setup ==========
-genai.configure(api_key=os.getenv("AIzaSyD_RNyTGXyDXv9ZE3Wvc5npaiE_LuqChec"))
+genai.configure(api_key=os.getenv("YOUR_GEMINI_KEY"))
 
 # ========== NLP Models ==========
 nlp = spacy.load("en_core_web_sm")
