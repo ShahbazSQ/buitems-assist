@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BUITEMS Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li>
+                <img src="{{ url_for('static', filename='images/BUITEMS_logo.png') }}" alt="Logo">
+            </li>
+            <ul>
+    <li><a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">Chatbot</a></li>
+    <li><a href="{{ url_for('about') }}" class="{% if request.endpoint == 'about' %}active{% endif %}">About Us</a></li>
+    <li><a href="{{ url_for('contact') }}" class="{% if request.endpoint == 'contact' %}active{% endif %}">Contact Us</a></li>
+</ul>
+
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <div class="about-container">
+        <header>
+            <h1>About BUITEMS Chatbot</h1>
+            <p style="color: #FFD700;">Your digital assistant for all things BUITEMS!</p>
+        </header>
+        <section>
+            <p>
+                The BUITEMS Chatbot is designed to enhance the student and visitor experience at BUITEMS. 
+                Whether you're navigating the campus, checking your schedule, or looking for quick answers to your queries, 
+                our chatbot is here to help 24/7.
+            </p>
+            <p>
+                Built to cater specifically to BUITEMS students, faculty, and visitors, this chatbot uses the latest technology 
+                to ensure ease of access to essential information. 
+            </p>
+            <p>
+                <strong>Features:</strong>
+                <ul>
+                    <li>Real-time campus navigation</li>
+                    <li>Personalized responses to your questions</li>
+                    <li>Access to semester schedules, class counselor details, and more</li>
+                </ul>
+            </p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 BUITEMS Chatbot | Designed for Students. Visit <a href="https://www.buitms.edu.pk">BUITEMS</a>.
+    </footer>
+</body>
+</html>

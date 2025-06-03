@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>Admin Dashboard</title></head>
+<body>
+  <h2>Welcome, Admin!</h2>
+  <a href="{{ url_for('admin_logout') }}">Logout</a>
+  <h3>Add New Q&A</h3>
+  <form method="POST">
+    <input name="question" placeholder="Question" required><br>
+    <textarea name="answer" placeholder="Answer" required></textarea><br>
+    <button type="submit">Add</button>
+  </form>
+
+  <h3>Existing Data</h3>
+  <ul>
+    {% for row in data %}
+      <li><strong>{{ row['question'] }}</strong> — {{ row['answer'] }} 
+      <a href="{{ url_for('delete_entry', id=row['id']) }}">Delete</a></li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

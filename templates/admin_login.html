@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>Admin Login</title></head>
+<body>
+    
+
+  <h2>Login</h2>
+  <a href="{{ url_for('admin_logout') }}">Logout</a>
+
+  <form method="POST">
+    <input name="username" placeholder="Username" required><br>
+    <input name="password" type="password" placeholder="Password" required><br>
+    <button type="submit">Login</button>
+  </form>
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for category, msg in messages %}
+      <p style="color:red">{{ msg }}</p>
+    {% endfor %}
+  {% endwith %}
+
+  {% if error %}
+<script>
+    alert("{{ error }}");
+</script>
+{% endif %}
+</body>
+</html>

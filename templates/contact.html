@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BUITEMS Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .contact-header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .contact-header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: #003366;
+            padding: 40px 20px;
+        }
+
+        .contact-card {
+            background: white;
+            color: #003366;
+            width: 280px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .contact-card h2 {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .contact-card p {
+            margin: 5px 0;
+        }
+
+        .message-form {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .message-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #003366;
+        }
+
+        .message-form form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .message-form input, .message-form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        .message-form button {
+            background-color: #003366;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .message-form button:hover {
+            background-color: #0055aa;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">Chatbot</a></li>
+    <li><a href="{{ url_for('about') }}" class="{% if request.endpoint == 'about' %}active{% endif %}">About Us</a></li>
+    <li><a href="{{ url_for('contact') }}" class="{% if request.endpoint == 'contact' %}active{% endif %}">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Us Section -->
+    <div class="contact-header">
+        <h1>Get in Touch</h1>
+    </div>
+
+    <div class="cards-container">
+        <div class="contact-card">
+            <h2>Address</h2>
+            <p>BUITEMS Takatu Campus</p>
+            <p>Airport Road, Quetta</p>
+        </div>
+        <div class="contact-card">
+            <h2>Phone</h2>
+            <p>+92-315-8030554</p>
+            <p>Mon - Fri, 9am - 5pm</p>
+        </div>
+        <div class="contact-card">
+            <h2>Email</h2>
+            <p><a href="mailto:theshahbaz081@gmail.com">theshahbaz081@gmail.com</a></p>
+            <p><a href="mailto:qaziwaleed3711@gmail.com">qaziwaleed3711@gmail.com</a></p>
+        </div>
+    </div>
+
+    <div class="message-form">
+        <h2>Message Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea rows="5" name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 BUITEMS Chatbot | Designed for Students. Visit <a href="https://www.buitms.edu.pk">BUITEMS</a>.
+    </footer>
+</body>
+</html>

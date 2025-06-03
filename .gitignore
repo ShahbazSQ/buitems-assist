@@ -1,0 +1,7 @@
+# Don't upload secrets, cache, or editor junk
+.env
+venv/
+__pycache__/
+*.pyc
+*.db
+.vscode/
