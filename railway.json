@@ -1,0 +1,10 @@
+{
+  "build": {
+    "nixpacksConfig": {
+      "languages": {
+        "python": "3.11"
+      }
+    }
+  },
+  "start": "python app.py"
+}
