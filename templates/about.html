@@ -4,64 +4,226 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - BUITEMS Chatbot</title>
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to bottom right, #000428, #004e92);
+            color: white;
+            overflow-x: hidden;
+        }
+
+        .background {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            z-index: -1;
+            background: radial-gradient(circle, rgba(0,0,0,0.2) 10%, transparent 11%);
+            background-size: 30px 30px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            background: rgba(0, 0, 0, 0.7);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+            flex-wrap: wrap;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: #FFD700;
+            left: 0;
+            bottom: -4px;
+            transition: 0.3s ease;
+        }
+        .nav-center {
+            flex: 1;
+            text-align: center;
+        }
+
+        .nav-center ul {
+            display: inline-flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            gap: 2rem;
+        }
+
+        .nav-center a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+        }
+
+        .nav-center a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: #FFD700;
+            left: 0;
+            bottom: -4px;
+            transition: 0.3s ease;
+        }
+
+        .nav-center a:hover::after,
+        .nav-center a.active::after {
+            width: 100%;
+        }
+        nav a:hover::after,
+        nav a.active::after {
+            width: 100%;
+        }
+
+        nav img {
+            height: 50px;
+        }
+
+        .about-container {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+        }
+
+        .about-container header h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .about-container header p {
+            text-align: center;
+            color: #FFD700;
+            font-size: 1.2rem;
+        }
+
+        .about-container section {
+            margin-top: 2rem;
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .about-container ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .about-container li {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .about-container li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #FFD700;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.95rem;
+            background: rgba(255, 255, 255, 0.05);
+            margin-top: 3rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <!-- Animated Background -->
-    <div class="background">
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-    </div>
+
+    <div class="background"></div>
 
     <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li>
-                <img src="{{ url_for('static', filename='images/BUITEMS_logo.png') }}" alt="Logo">
-            </li>
-            <ul>
-    <li><a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">Chatbot</a></li>
-    <li><a href="{{ url_for('about') }}" class="{% if request.endpoint == 'about' %}active{% endif %}">About Us</a></li>
-    <li><a href="{{ url_for('contact') }}" class="{% if request.endpoint == 'contact' %}active{% endif %}">Contact Us</a></li>
-</ul>
+    <nav class="main-navbar">
+    <div class="nav-left">
+        <a href="https://www.buitms.edu.pk" target="_blank">
+            <img src="{{ url_for('static', filename='images/BUITEMS_logo.png') }}" alt="BUITEMS Logo" class="logo">
+        </a>
+    </div>
 
+    <div class="nav-center">
+        <ul>
+            <li><a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">Chatbot</a></li>
+            <li><a href="{{ url_for('about') }}" class="{% if request.endpoint == 'about' %}active{% endif %}">About</a></li>
+            <li><a href="{{ url_for('contact') }}" class="{% if request.endpoint == 'contact' %}active{% endif %}">Contact</a></li>
         </ul>
-    </nav>
+    </div>
+
+    <div class="nav-right">
+        <a href="/admin"><button class="admin-btn">Admin Panel</button></a>
+    </div>
+</nav>
 
     <!-- About Section -->
     <div class="about-container">
         <header>
             <h1>About BUITEMS Chatbot</h1>
-            <p style="color: #FFD700;">Your digital assistant for all things BUITEMS!</p>
+            <p>Your digital assistant for all things BUITEMS 🎓</p>
         </header>
         <section>
             <p>
-                The BUITEMS Chatbot is designed to enhance the student and visitor experience at BUITEMS. 
-                Whether you're navigating the campus, checking your schedule, or looking for quick answers to your queries, 
-                our chatbot is here to help 24/7.
+                The <strong>BUITEMS Chatbot</strong> is an AI-powered assistant built to guide, inform, and support students and visitors at BUITEMS. 
+                Designed with convenience and accessibility in mind, it ensures you’re always connected to the university's resources.
             </p>
             <p>
-                Built to cater specifically to BUITEMS students, faculty, and visitors, this chatbot uses the latest technology 
-                to ensure ease of access to essential information. 
+                Whether you're navigating your semester, asking academic questions, or just curious about BUITEMS, our chatbot is available 24/7 — anytime, anywhere.
             </p>
+            <p><strong>✨ Key Features:</strong></p>
+            <ul>
+                <li>Real-time responses to student queries</li>
+                <li>Timetable-based class lookup (e.g., “PF class on Monday?”)</li>
+                <li>Faculty information and room navigation</li>
+                <li>Multi-step smart assistant with AI-powered answers</li>
+            </ul>
             <p>
-                <strong>Features:</strong>
-                <ul>
-                    <li>Real-time campus navigation</li>
-                    <li>Personalized responses to your questions</li>
-                    <li>Access to semester schedules, class counselor details, and more</li>
-                </ul>
+                This project was developed as part of the Final Year Project at BUITEMS, using technologies like Flask, SQLite, FAISS, and NLP libraries to deliver a smooth conversational experience.
             </p>
         </section>
     </div>
 
     <!-- Footer -->
     <footer>
-        © 2025 BUITEMS Chatbot | Designed for Students. Visit <a href="https://www.buitms.edu.pk">BUITEMS</a>.
+        © 2025 BUITEMS Chatbot | Built by Students, for Students. Visit <a href="https://www.buitms.edu.pk" target="_blank">BUITEMS</a>.
     </footer>
+
 </body>
 </html>
