@@ -62,14 +62,21 @@ function addSmartSuggestions() {
     chatbox.appendChild(suggestionDiv);
     scrollToBottom();
 }
+function toggleMenu() {
+    const menu = document.getElementById("mobileMenu");
+    menu.classList.toggle("visible");
+}
+
+
 
 function handleSuggestion(text) {
     addMessage('user', text);
 
     const staticReplies = {
-        "🗺️ Campus Map": "Here's the <a href='https://maps.app.goo.gl/dXfP5KPXz9e3RoZGA' target='_blank'>BUITEMS Campus Map</a>",
-        "👨‍🏫 Faculty Info": "Visit our <a href='https://www.buitms.edu.pk/faculty-directory' target='_blank'>Faculty Directory</a>",
-        "📅 View Timetable": null // handled by opening PDF directly
+        "🗺️ Campus Map": "Here's the <a href='https://www.google.com/maps/place/Balochistan+University+of+Information+Technology,+Engineering+and+Management+Sciences/@30.2689375,66.9440625,17z/data=!3m1!4b1!4m6!3m5!1s0x3ed31e4e8de39e87:0xdcf9f2538ac2317d!8m2!3d30.2689375!4d66.9440625!16zL20vMDlrXzZ3?entry=ttu&g_ep=EgoyMDI1MDcwNi4wIKXMDSoASAFQAw%3D%3D' target='_blank'>BUITEMS Campus Map</a>",
+        "👨‍🏫 Faculty Info": "Visit our <a href='https://www.buitms.edu.pk/Faculty-of-ICT' target='_blank'>Faculty Directory</a>",
+        "📅 View Timetable": null,// handled by opening PDF directly
+        "📝 Exam Schedule":"Final exams are likely to start around July 17, 2025."
     };
 
     if (staticReplies[text]) {

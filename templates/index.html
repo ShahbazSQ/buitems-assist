@@ -7,7 +7,7 @@
     <title>BUITEMS Chatbot</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
+</head>
 <body>
     <div class="campus-bg"></div>
     <div class="logo-bg"></div>
@@ -29,15 +29,20 @@
     <a href="{{ url_for('home') }}">
       <img src="{{ url_for('static', filename='images/BUITEMS_logo.png') }}" class="logo" />
     </a>
+    
   </div>
-
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
   <div class="nav-center">
     <ul>
       <li><a href="{{ url_for('home') }}" class="active">Home</a></li>
       <li><a href="{{ url_for('about') }}">About</a></li>
       <li><a href="{{ url_for('contact') }}">Contact</a></li>
+      <li class="admin-mobile"><a href="{{ url_for('admin') }}">Admin Panel</a></li>
+
+      
     </ul>
   </div>
+  
 
   <div class="nav-right">
     <a href="{{ url_for('admin') }}">
@@ -45,13 +50,9 @@
     </a>
   </div>
 </nav>
-
-
-
-
-
         </ul>
     </nav>
+  
   <div class="center-stack">
     <div id="how-to-ask-banner" class="banner" style="display:none;" role="alert">
     <span>

@@ -4954,3 +4954,1290 @@
 2025-07-08 19:48:48,003 | INFO | 127.0.0.1 - - [08/Jul/2025 19:48:48] "GET / HTTP/1.1" 200 -
 2025-07-08 19:48:48,035 | INFO | 127.0.0.1 - - [08/Jul/2025 19:48:48] "GET /static/css/style.css HTTP/1.1" 200 -
 2025-07-08 19:48:48,338 | INFO | 127.0.0.1 - - [08/Jul/2025 19:48:48] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:14:39,489 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-08 20:14:39,722 | INFO | Use pytorch device: cpu
+2025-07-08 20:14:40,367 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-08 20:14:40,677 | INFO | Use pytorch device: cpu
+2025-07-08 20:14:40,719 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-08 20:14:40,719 | INFO | [33mPress CTRL+C to quit[0m
+2025-07-08 20:14:40,720 | INFO |  * Restarting with stat
+2025-07-08 20:14:48,703 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-08 20:14:48,922 | INFO | Use pytorch device: cpu
+2025-07-08 20:14:49,451 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-08 20:14:49,671 | INFO | Use pytorch device: cpu
+2025-07-08 20:14:49,691 | WARNING |  * Debugger is active!
+2025-07-08 20:14:49,694 | INFO |  * Debugger PIN: 122-457-066
+2025-07-08 20:15:37,508 | INFO | 127.0.0.1 - - [08/Jul/2025 20:15:37] "GET / HTTP/1.1" 200 -
+2025-07-08 20:15:37,539 | INFO | 127.0.0.1 - - [08/Jul/2025 20:15:37] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:15:37,755 | INFO | 127.0.0.1 - - [08/Jul/2025 20:15:37] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:15:37,841 | INFO | 127.0.0.1 - - [08/Jul/2025 20:15:37] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:15:37,884 | INFO | 127.0.0.1 - - [08/Jul/2025 20:15:37] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:20:57,094 | INFO | 127.0.0.1 - - [08/Jul/2025 20:20:57] "GET / HTTP/1.1" 200 -
+2025-07-08 20:20:57,126 | INFO | 127.0.0.1 - - [08/Jul/2025 20:20:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:20:57,343 | INFO | 127.0.0.1 - - [08/Jul/2025 20:20:57] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:20:57,447 | INFO | 127.0.0.1 - - [08/Jul/2025 20:20:57] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:20:57,451 | INFO | 127.0.0.1 - - [08/Jul/2025 20:20:57] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:21:05,036 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:05] "GET / HTTP/1.1" 200 -
+2025-07-08 20:21:05,063 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:21:05,286 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:05] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:21:05,368 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:05] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:21:05,390 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:05] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:21:13,336 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:13] "GET / HTTP/1.1" 200 -
+2025-07-08 20:21:13,369 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:21:13,586 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:13] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:21:13,670 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:13] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:21:13,679 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:13] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:21:18,727 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:18] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:21:18,733 | INFO | Intent 'timetable' detected in query '\U0001f4dd Exam Schedule'.
+2025-07-08 20:21:19,126 | INFO | Analytics logged: {'user_id': 'dccfa537-7200-48c1-86ea-f116bf7481a0', 'query': '\U0001f4dd Exam Schedule', 'response': 'Please specify your section or program for a personalized timetable.', 'intent': 'timetable', 'timestamp': '2025-07-08T20:21:19.126863'}
+2025-07-08 20:21:19,126 | INFO | Session 'dccfa537-7200-48c1-86ea-f116bf7481a0' logged history event.
+2025-07-08 20:21:19,132 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:19] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:21:23,302 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:23] "GET / HTTP/1.1" 200 -
+2025-07-08 20:21:23,325 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:21:23,551 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:23] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:21:23,627 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:23] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:21:23,645 | INFO | 127.0.0.1 - - [08/Jul/2025 20:21:23] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:23:05,134 | INFO | 127.0.0.1 - - [08/Jul/2025 20:23:05] "GET / HTTP/1.1" 200 -
+2025-07-08 20:23:05,167 | INFO | 127.0.0.1 - - [08/Jul/2025 20:23:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:23:05,383 | INFO | 127.0.0.1 - - [08/Jul/2025 20:23:05] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:23:05,471 | INFO | 127.0.0.1 - - [08/Jul/2025 20:23:05] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:23:05,523 | INFO | 127.0.0.1 - - [08/Jul/2025 20:23:05] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:29:48,419 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-08 20:29:48,636 | INFO | Use pytorch device: cpu
+2025-07-08 20:29:49,169 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-08 20:29:49,400 | INFO | Use pytorch device: cpu
+2025-07-08 20:29:49,434 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-08 20:29:49,434 | INFO | [33mPress CTRL+C to quit[0m
+2025-07-08 20:29:49,436 | INFO |  * Restarting with stat
+2025-07-08 20:29:57,328 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-08 20:29:57,561 | INFO | Use pytorch device: cpu
+2025-07-08 20:29:58,101 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-08 20:29:58,338 | INFO | Use pytorch device: cpu
+2025-07-08 20:29:58,359 | WARNING |  * Debugger is active!
+2025-07-08 20:29:58,361 | INFO |  * Debugger PIN: 122-457-066
+2025-07-08 20:29:58,653 | INFO | 127.0.0.1 - - [08/Jul/2025 20:29:58] "GET / HTTP/1.1" 200 -
+2025-07-08 20:29:58,685 | INFO | 127.0.0.1 - - [08/Jul/2025 20:29:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:29:58,692 | INFO | 127.0.0.1 - - [08/Jul/2025 20:29:58] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:29:59,012 | INFO | 127.0.0.1 - - [08/Jul/2025 20:29:59] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:29:59,033 | INFO | 127.0.0.1 - - [08/Jul/2025 20:29:59] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:29:59,033 | INFO | 127.0.0.1 - - [08/Jul/2025 20:29:59] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:30:03,534 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:03] "GET / HTTP/1.1" 200 -
+2025-07-08 20:30:03,553 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:30:03,771 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:03] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:30:03,857 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:03] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:30:03,889 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:03] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:30:06,173 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:06] "GET / HTTP/1.1" 200 -
+2025-07-08 20:30:06,188 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:30:06,423 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:06] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:30:06,491 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:06] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:30:06,526 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:06] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:30:08,911 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:08] "GET / HTTP/1.1" 200 -
+2025-07-08 20:30:08,929 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:30:09,161 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:09] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:30:09,235 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:09] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:30:09,255 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:09] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:30:14,774 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:30:14,775 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:30:21,906 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:21] "GET /about HTTP/1.1" 200 -
+2025-07-08 20:30:22,210 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:30:22,248 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:22] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:30:22,255 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:30:25,688 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:25] "GET /contact HTTP/1.1" 200 -
+2025-07-08 20:30:25,983 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:30:29,056 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:29] "GET /about HTTP/1.1" 200 -
+2025-07-08 20:30:29,151 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:29] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:30:29,308 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:29] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:30:29,411 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:30:31,602 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:31] "GET / HTTP/1.1" 200 -
+2025-07-08 20:30:31,892 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:30:31,962 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:31] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:30:31,962 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:31] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:30:31,963 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:31] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:30:32,203 | INFO | 127.0.0.1 - - [08/Jul/2025 20:30:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:35:42,171 | INFO | 127.0.0.1 - - [08/Jul/2025 20:35:42] "GET / HTTP/1.1" 200 -
+2025-07-08 20:35:42,203 | INFO | 127.0.0.1 - - [08/Jul/2025 20:35:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:35:42,431 | INFO | 127.0.0.1 - - [08/Jul/2025 20:35:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:35:42,510 | INFO | 127.0.0.1 - - [08/Jul/2025 20:35:42] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:35:42,510 | INFO | 127.0.0.1 - - [08/Jul/2025 20:35:42] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:35:42,741 | INFO | 127.0.0.1 - - [08/Jul/2025 20:35:42] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:36:05,983 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:05] "GET /about HTTP/1.1" 200 -
+2025-07-08 20:36:06,121 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:06,234 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:06] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:07,248 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:07] "GET /contact HTTP/1.1" 200 -
+2025-07-08 20:36:08,981 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:08] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:09,281 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:09,317 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:09] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:09,318 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:09] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:09,589 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:09] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:36:25,257 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:25] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:25,284 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:25,508 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:25] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:25,581 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:25] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:25,599 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:25] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:36:26,552 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:26] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:26,588 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:26,892 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:26] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:26,898 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:26] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:26,915 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:26,954 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:26] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:27,219 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:27] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:27,221 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:27] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:36:45,239 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:45] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:45,549 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:45] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:45,567 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:45] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:45,586 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:45] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:45,870 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:45] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:36:53,611 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:53] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:53,659 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:53,863 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:53] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:53,952 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:53] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:53,979 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:53] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:36:55,334 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:55] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:55,374 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:55,584 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:55] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:55,679 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:55] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:55,709 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:55,886 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:55] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:56,006 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:56,009 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:56] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:56,036 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:56] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:56,129 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:56] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:56,223 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:56] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:36:56,503 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:56] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:56,530 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:56,533 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:56] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:56,842 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:56] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:56,852 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:56] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:56,853 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:56] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:57,003 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:57,158 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:57,165 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:57,167 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:57,188 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:57,331 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:57,372 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:57,484 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:57,512 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:57,513 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:57,514 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:57,667 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:57,705 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:57,815 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:57,841 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:57,843 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:57,938 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:57] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:58,018 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:58,065 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:58,146 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:58,165 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:58,167 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:58,299 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:58,343 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:58,432 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:58,489 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:58,496 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:58,496 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:58,611 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:58,678 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:58,750 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:58,816 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:58,817 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:58,825 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:58,933 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:59,013 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:59] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:59,100 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:59,160 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:59] "GET / HTTP/1.1" 200 -
+2025-07-08 20:36:59,168 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:59] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:59,170 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:59] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:59,268 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:36:59,348 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:59] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:36:59,418 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:59] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:36:59,496 | INFO | 127.0.0.1 - - [08/Jul/2025 20:36:59] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:37:46,919 | INFO | 127.0.0.1 - - [08/Jul/2025 20:37:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:37:46,951 | INFO | 127.0.0.1 - - [08/Jul/2025 20:37:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:38:05,857 | INFO | 127.0.0.1 - - [08/Jul/2025 20:38:05] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:38:05,861 | INFO | Defaulting to 'general' intent for query 'sdfsdf'.
+2025-07-08 20:38:18,241 | INFO | Analytics logged: {'user_id': 'bea5a804-bd87-4fb2-8f20-b231570f05f8', 'query': 'sdfsdf', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:38:18.241984'}
+2025-07-08 20:38:18,242 | INFO | Session 'bea5a804-bd87-4fb2-8f20-b231570f05f8' logged history event.
+2025-07-08 20:38:18,242 | INFO | 127.0.0.1 - - [08/Jul/2025 20:38:18] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:39:26,235 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:26] "GET / HTTP/1.1" 200 -
+2025-07-08 20:39:26,268 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:39:26,486 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:26] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:39:26,579 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:26] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:39:26,606 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:26] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:39:26,633 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:39:31,177 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:31] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:39:31,181 | INFO | Defaulting to 'general' intent for query 'asdasd'.
+2025-07-08 20:39:33,148 | INFO | Defaulting to 'general' intent for query 'asdas'.
+2025-07-08 20:39:34,350 | INFO | Defaulting to 'general' intent for query 'asdas'.
+2025-07-08 20:39:40,778 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:40] "GET / HTTP/1.1" 200 -
+2025-07-08 20:39:40,812 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:39:41,029 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:41] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:39:41,117 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:41] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:39:41,151 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:41] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:39:43,162 | INFO | Analytics logged: {'user_id': 'f7d37e1e-aa13-4185-8541-fccebb66e351', 'query': 'asdasd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:39:43.162989'}
+2025-07-08 20:39:43,162 | INFO | Session 'f7d37e1e-aa13-4185-8541-fccebb66e351' logged history event.
+2025-07-08 20:39:43,163 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:43] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:39:44,015 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:44] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:39:44,018 | INFO | Defaulting to 'general' intent for query 'LOl'.
+2025-07-08 20:39:45,087 | INFO | Analytics logged: {'user_id': 'b085ae43-1d04-4802-a960-bfada7c82b3c', 'query': 'asdas', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:39:45.087812'}
+2025-07-08 20:39:45,088 | INFO | Session 'b085ae43-1d04-4802-a960-bfada7c82b3c' logged history event.
+2025-07-08 20:39:45,088 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:45] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:39:45,660 | INFO | Defaulting to 'general' intent for query 'hahaha'.
+2025-07-08 20:39:46,416 | INFO | Analytics logged: {'user_id': 'd6d1f254-0d10-4be9-b3f5-4b05f0fa365f', 'query': 'asdas', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:39:46.416867'}
+2025-07-08 20:39:46,416 | INFO | Session 'd6d1f254-0d10-4be9-b3f5-4b05f0fa365f' logged history event.
+2025-07-08 20:39:46,417 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:46] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:39:52,234 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:52] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:39:52,239 | INFO | Defaulting to 'general' intent for query 'HBL'.
+2025-07-08 20:39:56,018 | INFO | Analytics logged: {'user_id': '4daf579b-1937-4540-af7a-de31d3b68297', 'query': 'LOl', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:39:56.018616'}
+2025-07-08 20:39:56,018 | INFO | Session '4daf579b-1937-4540-af7a-de31d3b68297' logged history event.
+2025-07-08 20:39:56,019 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:56] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:39:57,594 | INFO | Analytics logged: {'user_id': '8588c050-de77-42e5-9230-4da2a50890a5', 'query': 'hahaha', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:39:57.594075'}
+2025-07-08 20:39:57,594 | INFO | Session '8588c050-de77-42e5-9230-4da2a50890a5' logged history event.
+2025-07-08 20:39:57,595 | INFO | 127.0.0.1 - - [08/Jul/2025 20:39:57] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:00,787 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:00] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:00,790 | INFO | Intent 'room_lookup' detected in query 'WHERE IS SSG55?'.
+2025-07-08 20:40:00,829 | INFO | Analytics logged: {'user_id': 'f9f1818c-191c-4582-a621-00f80e52d190', 'query': 'WHERE IS SSG55?', 'response': 'you can find SSG 56 Class Room, Which is located at the Green carpet Block A infront of UAFA Office.', 'intent': 'room_lookup', 'timestamp': '2025-07-08T20:40:00.829862'}
+2025-07-08 20:40:00,830 | INFO | Session 'f9f1818c-191c-4582-a621-00f80e52d190' logged history event.
+2025-07-08 20:40:00,831 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:00] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:04,150 | INFO | Defaulting to 'general' intent for query 'asdas'.
+2025-07-08 20:40:04,184 | INFO | Analytics logged: {'user_id': '49825e27-17c3-4411-8b66-86bc3fb03d31', 'query': 'HBL', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:04.184354'}
+2025-07-08 20:40:04,184 | INFO | Session '49825e27-17c3-4411-8b66-86bc3fb03d31' logged history event.
+2025-07-08 20:40:04,185 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:04] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:04,876 | INFO | Defaulting to 'general' intent for query 'asdad'.
+2025-07-08 20:40:05,437 | INFO | Defaulting to 'general' intent for query 'asdasd'.
+2025-07-08 20:40:05,945 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:05] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:05,948 | INFO | Defaulting to 'general' intent for query 'asda'.
+2025-07-08 20:40:06,010 | INFO | Analytics logged: {'user_id': '75825c60-4e57-44a1-a143-f47edc5441d8', 'query': 'asda', 'response': '\U0001f4d8 Sda (SE-231) for BS-SE 4th - Section  is on Thursday from 09:30 to 11:00 in SSG-17 with Mr.Shahrukh. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Monday from 11:00 to 00:30 in R5 with Dr.Mirza Amir. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Thursday from 00:30 to 02:00 in R7 with Dr.Mirza Amir.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:06.010462'}
+2025-07-08 20:40:06,010 | INFO | Session '75825c60-4e57-44a1-a143-f47edc5441d8' logged history event.
+2025-07-08 20:40:06,011 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:06] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:06,376 | INFO | Defaulting to 'general' intent for query 'ad'.
+2025-07-08 20:40:06,412 | INFO | Analytics logged: {'user_id': '947f9823-3176-4b04-97f6-2298304ccf81', 'query': 'ad', 'response': '\U0001f4d8 Mad () for BS-CS 6th - Section  is on Tuesday from 11:00 to 02:00 in FYP LAB with Mr.Shah Zaman. \U0001f4d8 Mad () for BS-CS 6th - Section  is on Thursday from 09:00 to 11:00 in R7 with Mr.Shah Zaman.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:06.412663'}
+2025-07-08 20:40:06,412 | INFO | Session '947f9823-3176-4b04-97f6-2298304ccf81' logged history event.
+2025-07-08 20:40:06,412 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:06] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:06,702 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:40:06,980 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:40:07,281 | INFO | Defaulting to 'general' intent for query 'ad'.
+2025-07-08 20:40:07,325 | INFO | Analytics logged: {'user_id': 'f6835c64-e2cb-4249-947c-18d640235b3e', 'query': 'ad', 'response': '\U0001f4d8 Mad () for BS-CS 6th - Section  is on Tuesday from 11:00 to 02:00 in FYP LAB with Mr.Shah Zaman. \U0001f4d8 Mad () for BS-CS 6th - Section  is on Thursday from 09:00 to 11:00 in R7 with Mr.Shah Zaman.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:07.325731'}
+2025-07-08 20:40:07,325 | INFO | Session 'f6835c64-e2cb-4249-947c-18d640235b3e' logged history event.
+2025-07-08 20:40:07,326 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:07] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:07,566 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:40:16,161 | INFO | Analytics logged: {'user_id': '92916b9a-d2ed-4624-8de2-f5fa11abdbce', 'query': 'asdas', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:16.161883'}
+2025-07-08 20:40:16,162 | INFO | Session '92916b9a-d2ed-4624-8de2-f5fa11abdbce' logged history event.
+2025-07-08 20:40:16,163 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:16] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:16,165 | INFO | Defaulting to 'general' intent for query 'asda'.
+2025-07-08 20:40:16,206 | INFO | Analytics logged: {'user_id': '7e8c850f-a3ea-433b-a635-d50e4b932204', 'query': 'asda', 'response': '\U0001f4d8 Sda (SE-231) for BS-SE 4th - Section  is on Thursday from 09:30 to 11:00 in SSG-17 with Mr.Shahrukh. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Monday from 11:00 to 00:30 in R5 with Dr.Mirza Amir. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Thursday from 00:30 to 02:00 in R7 with Dr.Mirza Amir.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:16.206806'}
+2025-07-08 20:40:16,206 | INFO | Session '7e8c850f-a3ea-433b-a635-d50e4b932204' logged history event.
+2025-07-08 20:40:16,207 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:16] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:16,209 | INFO | Defaulting to 'general' intent for query 'sdas'.
+2025-07-08 20:40:16,252 | INFO | Analytics logged: {'user_id': '60300b14-9cbb-44d3-9e68-630818a02e41', 'query': 'sdas', 'response': '\U0001f4d8 Sda (SE-231) for BS-SE 4th - Section  is on Thursday from 09:30 to 11:00 in SSG-17 with Mr.Shahrukh. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Monday from 11:00 to 00:30 in R5 with Dr.Mirza Amir. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Thursday from 00:30 to 02:00 in R7 with Dr.Mirza Amir.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:16.252679'}
+2025-07-08 20:40:16,253 | INFO | Session '60300b14-9cbb-44d3-9e68-630818a02e41' logged history event.
+2025-07-08 20:40:16,253 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:16] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:16,255 | INFO | Defaulting to 'general' intent for query 'dasd'.
+2025-07-08 20:40:16,297 | INFO | Analytics logged: {'user_id': 'bca12bfe-9581-43ba-ac09-f9004bcf9fcb', 'query': 'dasd', 'response': '\U0001f4d8 Dsd (EE 302) for BS-CE 6th - Section  is on Tuesday from 09:30 to 11:00 in SSG-56 with Mr.Arsalan Ul Haq. \U0001f4d8 Dsd (EE 302) for BS-CE 6th - Section  is on Thursday from 09:30 to 11:00 in SSG-56 with Dr.Sibghat Ullah.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:16.297547'}
+2025-07-08 20:40:16,297 | INFO | Session 'bca12bfe-9581-43ba-ac09-f9004bcf9fcb' logged history event.
+2025-07-08 20:40:16,298 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:16] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:16,301 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:40:16,905 | INFO | Analytics logged: {'user_id': 'dd6079c4-f142-4677-a035-0f997c6fd555', 'query': 'asdad', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:16.905089'}
+2025-07-08 20:40:16,905 | INFO | Session 'dd6079c4-f142-4677-a035-0f997c6fd555' logged history event.
+2025-07-08 20:40:16,905 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:16] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:16,907 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:40:17,393 | INFO | Analytics logged: {'user_id': '525e18ff-9e17-4233-aba5-2e66f44c8f7d', 'query': 'asdasd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:17.393110'}
+2025-07-08 20:40:17,393 | INFO | Session '525e18ff-9e17-4233-aba5-2e66f44c8f7d' logged history event.
+2025-07-08 20:40:17,394 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:17] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:17,399 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:40:18,938 | INFO | Analytics logged: {'user_id': '4796f2bd-ba1b-4549-8e9f-f690f89b6c0f', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:18.938786'}
+2025-07-08 20:40:18,939 | INFO | Session '4796f2bd-ba1b-4549-8e9f-f690f89b6c0f' logged history event.
+2025-07-08 20:40:18,939 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:18] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:18,941 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:40:19,291 | INFO | Analytics logged: {'user_id': 'b11447c2-15f1-4410-8b15-2e4d6291bb23', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:19.291474'}
+2025-07-08 20:40:19,291 | INFO | Session 'b11447c2-15f1-4410-8b15-2e4d6291bb23' logged history event.
+2025-07-08 20:40:19,292 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:19] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:19,296 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:40:19,686 | INFO | Analytics logged: {'user_id': 'e906fdfa-a86f-43db-9f92-6c00dd68f032', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:19.685129'}
+2025-07-08 20:40:19,686 | INFO | Session 'e906fdfa-a86f-43db-9f92-6c00dd68f032' logged history event.
+2025-07-08 20:40:19,686 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:19] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:19,689 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:40:28,331 | INFO | Analytics logged: {'user_id': '936b8c60-91b2-4171-abcf-d00c3e0439c0', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:28.331107'}
+2025-07-08 20:40:28,331 | INFO | Session '936b8c60-91b2-4171-abcf-d00c3e0439c0' logged history event.
+2025-07-08 20:40:28,332 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:28] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:28,335 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:40:29,059 | INFO | Analytics logged: {'user_id': '942ad98d-58c0-41da-bd65-402f8bd39721', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:29.059256'}
+2025-07-08 20:40:29,059 | INFO | Session '942ad98d-58c0-41da-bd65-402f8bd39721' logged history event.
+2025-07-08 20:40:29,060 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,063 | INFO | Defaulting to 'general' intent for query 'asdas'.
+2025-07-08 20:40:29,516 | INFO | Analytics logged: {'user_id': '25ae1e4b-252c-4fc4-ad85-13c2a2c03766', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:29.516618'}
+2025-07-08 20:40:29,516 | INFO | Session '25ae1e4b-252c-4fc4-ad85-13c2a2c03766' logged history event.
+2025-07-08 20:40:29,517 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,520 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,527 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,531 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,535 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,538 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,546 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,548 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,551 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,554 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,559 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,563 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,566 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,569 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,572 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,578 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,581 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,583 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,587 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,593 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,595 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,599 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,602 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,605 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,610 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,613 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,616 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,619 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,622 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,629 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,631 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,634 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,637 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,643 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,647 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,650 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,653 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,657 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,662 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,665 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,667 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,671 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,678 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,682 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,685 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,688 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,693 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,696 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,699 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,703 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,705 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,711 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,713 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,716 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,720 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,724 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,728 | INFO | Defaulting to 'general' intent for query 'dasd'.
+2025-07-08 20:40:29,767 | INFO | Analytics logged: {'user_id': '833d6a98-eaa6-4c3b-8ac6-df12447ef1e0', 'query': 'dasd', 'response': '\U0001f4d8 Dsd (EE 302) for BS-CE 6th - Section  is on Tuesday from 09:30 to 11:00 in SSG-56 with Mr.Arsalan Ul Haq. \U0001f4d8 Dsd (EE 302) for BS-CE 6th - Section  is on Thursday from 09:30 to 11:00 in SSG-56 with Dr.Sibghat Ullah.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:29.767421'}
+2025-07-08 20:40:29,767 | INFO | Session '833d6a98-eaa6-4c3b-8ac6-df12447ef1e0' logged history event.
+2025-07-08 20:40:29,767 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:29] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:29,770 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:40:30,736 | INFO | Analytics logged: {'user_id': '60d7f628-07c0-4530-abd0-b358176accae', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:30.736393'}
+2025-07-08 20:40:30,736 | INFO | Session '60d7f628-07c0-4530-abd0-b358176accae' logged history event.
+2025-07-08 20:40:30,737 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:30] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:30,740 | INFO | Defaulting to 'general' intent for query 'asdas'.
+2025-07-08 20:40:31,246 | INFO | Analytics logged: {'user_id': '02ce2483-984d-4481-9bf1-6b51f6640691', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:31.246161'}
+2025-07-08 20:40:31,246 | INFO | Session '02ce2483-984d-4481-9bf1-6b51f6640691' logged history event.
+2025-07-08 20:40:31,247 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:31] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:31,250 | INFO | Defaulting to 'general' intent for query 'das'.
+2025-07-08 20:40:31,296 | INFO | Analytics logged: {'user_id': 'c702b55c-b9f3-43a0-9b09-877ac256c261', 'query': 'das', 'response': 'Multiple classes found for your query. Please specify section (options: b, a, ) or program (options: bs-it, bs-ce, bs-se, bs-cs, bs-ee).', 'intent': 'general', 'timestamp': '2025-07-08T20:40:31.296941'}
+2025-07-08 20:40:31,296 | INFO | Session 'c702b55c-b9f3-43a0-9b09-877ac256c261' logged history event.
+2025-07-08 20:40:31,297 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:31] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:31,299 | INFO | Defaulting to 'general' intent for query 'd'.
+2025-07-08 20:40:31,331 | INFO | Analytics logged: {'user_id': '2250ddb1-2b4d-4295-8b5c-eb5b73cac7d0', 'query': 'd', 'response': '', 'intent': 'general', 'timestamp': '2025-07-08T20:40:31.331073'}
+2025-07-08 20:40:31,331 | INFO | Session '2250ddb1-2b4d-4295-8b5c-eb5b73cac7d0' logged history event.
+2025-07-08 20:40:31,331 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:31] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:31,334 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:40:31,664 | INFO | Analytics logged: {'user_id': '9358221a-2105-460d-8b85-a8bbc0e874f9', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:31.664238'}
+2025-07-08 20:40:31,664 | INFO | Session '9358221a-2105-460d-8b85-a8bbc0e874f9' logged history event.
+2025-07-08 20:40:31,665 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:31] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:31,668 | INFO | Defaulting to 'general' intent for query 'as'.
+2025-07-08 20:40:40,482 | INFO | Analytics logged: {'user_id': 'b639c449-c74d-4ac6-960a-57f24fb139ea', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:40.482077'}
+2025-07-08 20:40:40,482 | INFO | Session 'b639c449-c74d-4ac6-960a-57f24fb139ea' logged history event.
+2025-07-08 20:40:40,483 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:40] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:40,493 | INFO | Defaulting to 'general' intent for query 'd'.
+2025-07-08 20:40:40,544 | INFO | Analytics logged: {'user_id': 'fc80b384-cf7f-484b-87e0-b8650fbaa88f', 'query': 'd', 'response': '', 'intent': 'general', 'timestamp': '2025-07-08T20:40:40.544518'}
+2025-07-08 20:40:40,544 | INFO | Session 'fc80b384-cf7f-484b-87e0-b8650fbaa88f' logged history event.
+2025-07-08 20:40:40,545 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:40] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:40,549 | INFO | Defaulting to 'general' intent for query 's'.
+2025-07-08 20:40:40,584 | INFO | Analytics logged: {'user_id': '996f5375-f2d3-4eaa-9826-971f7d12bc5d', 'query': 's', 'response': '', 'intent': 'general', 'timestamp': '2025-07-08T20:40:40.584534'}
+2025-07-08 20:40:40,584 | INFO | Session '996f5375-f2d3-4eaa-9826-971f7d12bc5d' logged history event.
+2025-07-08 20:40:40,589 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:40] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:40,593 | INFO | Defaulting to 'general' intent for query 'ad'.
+2025-07-08 20:40:40,639 | INFO | Analytics logged: {'user_id': '6b283c5e-477a-42b9-877f-3d16c3340caf', 'query': 'ad', 'response': '\U0001f4d8 Mad () for BS-CS 6th - Section  is on Tuesday from 11:00 to 02:00 in FYP LAB with Mr.Shah Zaman. \U0001f4d8 Mad () for BS-CS 6th - Section  is on Thursday from 09:00 to 11:00 in R7 with Mr.Shah Zaman.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:40.639191'}
+2025-07-08 20:40:40,639 | INFO | Session '6b283c5e-477a-42b9-877f-3d16c3340caf' logged history event.
+2025-07-08 20:40:40,640 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:40] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:40,643 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:40:40,942 | INFO | Analytics logged: {'user_id': '40d60966-713d-4107-8d9b-b60a77df15b5', 'query': 'asdas', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:40.942726'}
+2025-07-08 20:40:40,942 | INFO | Session '40d60966-713d-4107-8d9b-b60a77df15b5' logged history event.
+2025-07-08 20:40:40,943 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:40] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:40,946 | INFO | Defaulting to 'general' intent for query 'as'.
+2025-07-08 20:40:41,655 | INFO | Analytics logged: {'user_id': 'c0b18c49-8802-4ca1-99de-bedc9b6833e6', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:41.655914'}
+2025-07-08 20:40:41,655 | INFO | Session 'c0b18c49-8802-4ca1-99de-bedc9b6833e6' logged history event.
+2025-07-08 20:40:41,656 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:41] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:41,659 | INFO | Defaulting to 'general' intent for query 'd'.
+2025-07-08 20:40:41,698 | INFO | Analytics logged: {'user_id': '2ac8635f-cc54-4196-a4ba-4ae73581de52', 'query': 'd', 'response': '', 'intent': 'general', 'timestamp': '2025-07-08T20:40:41.698861'}
+2025-07-08 20:40:41,698 | INFO | Session '2ac8635f-cc54-4196-a4ba-4ae73581de52' logged history event.
+2025-07-08 20:40:41,699 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:41] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:41,702 | INFO | Defaulting to 'general' intent for query 'sad'.
+2025-07-08 20:40:42,760 | INFO | Analytics logged: {'user_id': 'a58ac60c-68bf-4828-9211-ae22adccc033', 'query': 'asdas', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:42.760433'}
+2025-07-08 20:40:42,761 | INFO | Session 'a58ac60c-68bf-4828-9211-ae22adccc033' logged history event.
+2025-07-08 20:40:42,761 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:42] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:42,765 | INFO | Defaulting to 'general' intent for query 'asdasdas'.
+2025-07-08 20:40:43,552 | INFO | Analytics logged: {'user_id': '43a7420b-0199-4e88-880c-42569d91e4f4', 'query': 'as', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:43.552109'}
+2025-07-08 20:40:43,553 | INFO | Session '43a7420b-0199-4e88-880c-42569d91e4f4' logged history event.
+2025-07-08 20:40:43,553 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:43] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:43,558 | INFO | Defaulting to 'general' intent for query 'd'.
+2025-07-08 20:40:43,586 | INFO | Analytics logged: {'user_id': 'ba9615c3-ab6b-467c-8630-5292db1c9e01', 'query': 'd', 'response': '', 'intent': 'general', 'timestamp': '2025-07-08T20:40:43.586190'}
+2025-07-08 20:40:43,586 | INFO | Session 'ba9615c3-ab6b-467c-8630-5292db1c9e01' logged history event.
+2025-07-08 20:40:43,586 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:43] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:43,593 | INFO | Defaulting to 'general' intent for query 'as'.
+2025-07-08 20:40:43,631 | INFO | Analytics logged: {'user_id': '755c4fcb-a01b-465a-a726-caeab758d04a', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:43.631085'}
+2025-07-08 20:40:43,631 | INFO | Session '755c4fcb-a01b-465a-a726-caeab758d04a' logged history event.
+2025-07-08 20:40:43,632 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:43] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:43,634 | INFO | Defaulting to 'general' intent for query 'd'.
+2025-07-08 20:40:43,666 | INFO | Analytics logged: {'user_id': '56720d55-4345-41c7-a062-74b04952442d', 'query': 'd', 'response': '', 'intent': 'general', 'timestamp': '2025-07-08T20:40:43.666222'}
+2025-07-08 20:40:43,667 | INFO | Session '56720d55-4345-41c7-a062-74b04952442d' logged history event.
+2025-07-08 20:40:43,667 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:43] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:43,670 | INFO | Defaulting to 'general' intent for query 'as'.
+2025-07-08 20:40:51,718 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:51] "GET / HTTP/1.1" 200 -
+2025-07-08 20:40:51,728 | INFO | Defaulting to 'general' intent for query 'd'.
+2025-07-08 20:40:51,731 | INFO | Defaulting to 'general' intent for query 'das'.
+2025-07-08 20:40:51,736 | INFO | Defaulting to 'general' intent for query 'd'.
+2025-07-08 20:40:51,751 | INFO | Defaulting to 'general' intent for query 'd'.
+2025-07-08 20:40:51,753 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:40:51,851 | INFO | Analytics logged: {'user_id': '4b6c8683-c942-4653-986a-3be8c2883cdd', 'query': 'das', 'response': 'Multiple classes found for your query. Please specify section (options: b, a, ) or program (options: bs-it, bs-ce, bs-se, bs-cs, bs-ee).', 'intent': 'general', 'timestamp': '2025-07-08T20:40:51.851859'}
+2025-07-08 20:40:51,851 | INFO | Session '4b6c8683-c942-4653-986a-3be8c2883cdd' logged history event.
+2025-07-08 20:40:51,853 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:51] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:51,886 | INFO | Analytics logged: {'user_id': 'bb2ab008-6b15-4783-b282-6c714492efd2', 'query': 'd', 'response': '', 'intent': 'general', 'timestamp': '2025-07-08T20:40:51.886019'}
+2025-07-08 20:40:51,886 | INFO | Session 'bb2ab008-6b15-4783-b282-6c714492efd2' logged history event.
+2025-07-08 20:40:51,886 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:51] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:51,889 | INFO | Analytics logged: {'user_id': '3c1fbc4a-6d0a-419c-aa20-b40a3712ec86', 'query': 'd', 'response': '', 'intent': 'general', 'timestamp': '2025-07-08T20:40:51.889923'}
+2025-07-08 20:40:51,889 | INFO | Session '3c1fbc4a-6d0a-419c-aa20-b40a3712ec86' logged history event.
+2025-07-08 20:40:51,889 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:51] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:51,891 | INFO | Analytics logged: {'user_id': 'f590ff2e-b24f-407d-a0d1-9784a59c7915', 'query': 'd', 'response': '', 'intent': 'general', 'timestamp': '2025-07-08T20:40:51.891875'}
+2025-07-08 20:40:51,891 | INFO | Session 'f590ff2e-b24f-407d-a0d1-9784a59c7915' logged history event.
+2025-07-08 20:40:51,892 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:51] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:51,969 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:51] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:40:52,052 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:52] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:40:52,090 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:52] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:40:52,593 | INFO | Analytics logged: {'user_id': '75576f08-88aa-4c64-877f-8f3be54dc81d', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:52.593242'}
+2025-07-08 20:40:52,593 | INFO | Session '75576f08-88aa-4c64-877f-8f3be54dc81d' logged history event.
+2025-07-08 20:40:52,594 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:52] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:53,130 | INFO | Analytics logged: {'user_id': '9bff9f8d-9782-4f85-94b1-fa7770ea86a5', 'query': 'as', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:53.130195'}
+2025-07-08 20:40:53,131 | INFO | Session '9bff9f8d-9782-4f85-94b1-fa7770ea86a5' logged history event.
+2025-07-08 20:40:53,132 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:53] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:53,661 | INFO | Analytics logged: {'user_id': '7fc80387-4a9c-4a77-8237-74376734d05e', 'query': 'sad', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:53.661704'}
+2025-07-08 20:40:53,662 | INFO | Session '7fc80387-4a9c-4a77-8237-74376734d05e' logged history event.
+2025-07-08 20:40:53,662 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:53] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:54,896 | INFO | Analytics logged: {'user_id': '7db44951-06ba-48f5-b5a6-d14f78dc6555', 'query': 'asdasdas', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:54.896585'}
+2025-07-08 20:40:54,897 | INFO | Session '7db44951-06ba-48f5-b5a6-d14f78dc6555' logged history event.
+2025-07-08 20:40:54,897 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:54] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:55,532 | INFO | Analytics logged: {'user_id': '46831259-b46e-4fd1-b55c-231b8ce0775b', 'query': 'as', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:55.532536'}
+2025-07-08 20:40:55,532 | INFO | Session '46831259-b46e-4fd1-b55c-231b8ce0775b' logged history event.
+2025-07-08 20:40:55,534 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:55] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:40:55,621 | INFO | Analytics logged: {'user_id': 'f472e284-479f-4510-9951-728f82224c24', 'query': 'as', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:40:55.621771'}
+2025-07-08 20:40:55,621 | INFO | Session 'f472e284-479f-4510-9951-728f82224c24' logged history event.
+2025-07-08 20:40:55,622 | INFO | 127.0.0.1 - - [08/Jul/2025 20:40:55] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:41:49,410 | INFO | 127.0.0.1 - - [08/Jul/2025 20:41:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:41:49,431 | INFO | 127.0.0.1 - - [08/Jul/2025 20:41:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:44:58,020 | INFO | 127.0.0.1 - - [08/Jul/2025 20:44:58] "GET / HTTP/1.1" 200 -
+2025-07-08 20:44:58,074 | INFO | 127.0.0.1 - - [08/Jul/2025 20:44:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:44:58,282 | INFO | 127.0.0.1 - - [08/Jul/2025 20:44:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:44:58,378 | INFO | 127.0.0.1 - - [08/Jul/2025 20:44:58] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:44:58,380 | INFO | 127.0.0.1 - - [08/Jul/2025 20:44:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:44:58,608 | INFO | 127.0.0.1 - - [08/Jul/2025 20:44:58] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:45:01,324 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:01] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:45:01,328 | INFO | Defaulting to 'general' intent for query 'asdas'.
+2025-07-08 20:45:01,667 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:45:01,967 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:45:02,253 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:45:02,537 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:45:02,803 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:45:08,733 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:08] "GET / HTTP/1.1" 200 -
+2025-07-08 20:45:08,749 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:08] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:45:08,767 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:08] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:45:08,771 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:45:08,984 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:08] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:45:09,077 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:09] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:45:09,099 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:09] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:45:09,127 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:45:13,084 | INFO | Analytics logged: {'user_id': '11f76b4a-0b60-457c-b182-69b6ef948be5', 'query': 'asdas', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:45:13.084251'}
+2025-07-08 20:45:13,084 | INFO | Session '11f76b4a-0b60-457c-b182-69b6ef948be5' logged history event.
+2025-07-08 20:45:13,085 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:13] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:45:13,662 | INFO | Analytics logged: {'user_id': '0ad2d896-8780-48c4-9191-161ed503f3a9', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:45:13.662976'}
+2025-07-08 20:45:13,662 | INFO | Session '0ad2d896-8780-48c4-9191-161ed503f3a9' logged history event.
+2025-07-08 20:45:13,663 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:13] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:45:13,756 | INFO | Analytics logged: {'user_id': '24e30f05-b0f7-4464-9d44-bdd9ab440d50', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:45:13.756703'}
+2025-07-08 20:45:13,756 | INFO | Session '24e30f05-b0f7-4464-9d44-bdd9ab440d50' logged history event.
+2025-07-08 20:45:13,757 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:13] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:45:14,088 | INFO | Analytics logged: {'user_id': '7d33712a-08bd-4bf0-9318-a3f16ebf05ad', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:45:14.088962'}
+2025-07-08 20:45:14,089 | INFO | Session '7d33712a-08bd-4bf0-9318-a3f16ebf05ad' logged history event.
+2025-07-08 20:45:14,089 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:14] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:45:14,622 | INFO | Analytics logged: {'user_id': 'b5a4aaaa-f72d-44d4-bb48-77db22498f88', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:45:14.622021'}
+2025-07-08 20:45:14,622 | INFO | Session 'b5a4aaaa-f72d-44d4-bb48-77db22498f88' logged history event.
+2025-07-08 20:45:14,622 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:14] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:45:14,768 | INFO | Analytics logged: {'user_id': 'c461193d-5ca6-41ea-97f4-40645f6372cd', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:45:14.768948'}
+2025-07-08 20:45:14,768 | INFO | Session 'c461193d-5ca6-41ea-97f4-40645f6372cd' logged history event.
+2025-07-08 20:45:14,769 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:14] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:45:54,209 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:54] "GET / HTTP/1.1" 200 -
+2025-07-08 20:45:54,239 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:45:54,459 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:54] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:45:54,547 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:54] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:45:54,549 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:54] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:45:54,773 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:54] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:45:55,210 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:55] "GET / HTTP/1.1" 200 -
+2025-07-08 20:45:55,253 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:45:55,460 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:45:55,556 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:55] "GET / HTTP/1.1" 200 -
+2025-07-08 20:45:55,558 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:55] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:45:55,634 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:45:55,774 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:55] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:45:55,891 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:55] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:45:55,892 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:45:55,893 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:55] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:45:57,653 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:57] "GET /contact HTTP/1.1" 200 -
+2025-07-08 20:45:57,695 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:45:59,516 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:59] "GET /about HTTP/1.1" 200 -
+2025-07-08 20:45:59,545 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:45:59,770 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:45:59,849 | INFO | 127.0.0.1 - - [08/Jul/2025 20:45:59] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:46:00,516 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:00] "GET / HTTP/1.1" 200 -
+2025-07-08 20:46:00,555 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:46:00,767 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:00] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:46:00,863 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:00] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:46:00,864 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:00] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:46:00,904 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:46:04,387 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:46:04,406 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:46:05,726 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:46:08,477 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:08] "GET / HTTP/1.1" 200 -
+2025-07-08 20:46:08,502 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:46:08,727 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:08] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:46:08,815 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:08] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:46:08,838 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:08] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:46:12,633 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:12] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:46:12,661 | INFO | 127.0.0.1 - - [08/Jul/2025 20:46:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:47:25,954 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:25] "GET / HTTP/1.1" 200 -
+2025-07-08 20:47:25,986 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:47:26,205 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:26] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:47:26,294 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:26] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:47:26,297 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:26] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:47:26,348 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:47:33,001 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:33] "GET / HTTP/1.1" 200 -
+2025-07-08 20:47:33,017 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:47:33,250 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:33] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:47:33,320 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:33] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:47:33,373 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:33] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:47:47,008 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:47] "GET / HTTP/1.1" 200 -
+2025-07-08 20:47:47,056 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:47:47,261 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:47] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:47:47,348 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:47] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:47:47,370 | INFO | 127.0.0.1 - - [08/Jul/2025 20:47:47] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:52:58,652 | INFO | 127.0.0.1 - - [08/Jul/2025 20:52:58] "GET / HTTP/1.1" 200 -
+2025-07-08 20:52:58,687 | INFO | 127.0.0.1 - - [08/Jul/2025 20:52:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:52:58,872 | INFO | 127.0.0.1 - - [08/Jul/2025 20:52:58] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:52:58,998 | INFO | 127.0.0.1 - - [08/Jul/2025 20:52:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:52:59,017 | INFO | 127.0.0.1 - - [08/Jul/2025 20:52:59] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:53:02,270 | INFO | 127.0.0.1 - - [08/Jul/2025 20:53:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:53:02,290 | INFO | 127.0.0.1 - - [08/Jul/2025 20:53:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:56:05,145 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:05] "GET / HTTP/1.1" 200 -
+2025-07-08 20:56:05,177 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:56:05,396 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:05] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:56:05,478 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:05] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:56:05,514 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:05] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:56:09,694 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:09] "GET / HTTP/1.1" 200 -
+2025-07-08 20:56:09,729 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:56:09,946 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:09] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:56:10,037 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:10] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:56:10,047 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:10] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:56:16,769 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:16] "GET / HTTP/1.1" 200 -
+2025-07-08 20:56:16,817 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:56:17,021 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:17] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:56:17,109 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:17] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:56:17,133 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:17] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:56:25,133 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:56:25,163 | INFO | 127.0.0.1 - - [08/Jul/2025 20:56:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:57:47,602 | INFO | 127.0.0.1 - - [08/Jul/2025 20:57:47] "GET / HTTP/1.1" 200 -
+2025-07-08 20:57:47,635 | INFO | 127.0.0.1 - - [08/Jul/2025 20:57:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:57:47,862 | INFO | 127.0.0.1 - - [08/Jul/2025 20:57:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:57:47,939 | INFO | 127.0.0.1 - - [08/Jul/2025 20:57:47] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:57:47,940 | INFO | 127.0.0.1 - - [08/Jul/2025 20:57:47] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:57:48,176 | INFO | 127.0.0.1 - - [08/Jul/2025 20:57:48] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:57:55,404 | INFO | 127.0.0.1 - - [08/Jul/2025 20:57:55] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:57:55,408 | INFO | Defaulting to 'general' intent for query 'gdfsgsdfgs'.
+2025-07-08 20:57:56,977 | INFO | Defaulting to 'general' intent for query 'sdfs'.
+2025-07-08 20:57:58,307 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:57:58,608 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 20:57:58,970 | INFO | Defaulting to 'general' intent for query 'aas'.
+2025-07-08 20:57:59,313 | INFO | Defaulting to 'general' intent for query 'dasd'.
+2025-07-08 20:57:59,361 | INFO | Analytics logged: {'user_id': '9b78585b-1c60-4b1f-b917-3acfd1535540', 'query': 'dasd', 'response': '\U0001f4d8 Dsd (EE 302) for BS-CE 6th - Section  is on Tuesday from 09:30 to 11:00 in SSG-56 with Mr.Arsalan Ul Haq. \U0001f4d8 Dsd (EE 302) for BS-CE 6th - Section  is on Thursday from 09:30 to 11:00 in SSG-56 with Dr.Sibghat Ullah.', 'intent': 'general', 'timestamp': '2025-07-08T20:57:59.361710'}
+2025-07-08 20:57:59,361 | INFO | Session '9b78585b-1c60-4b1f-b917-3acfd1535540' logged history event.
+2025-07-08 20:57:59,362 | INFO | 127.0.0.1 - - [08/Jul/2025 20:57:59] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:57:59,556 | INFO | Defaulting to 'general' intent for query 'as'.
+2025-07-08 20:58:03,793 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:03] "GET / HTTP/1.1" 200 -
+2025-07-08 20:58:03,813 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:03] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:03,839 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:03] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:03,845 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:58:03,859 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:03] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:03,864 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:03] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:03,866 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:03] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:03,877 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:03] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:03,879 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:03] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:03,882 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:03] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:03,887 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:03] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:04,045 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:04] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:58:04,152 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:04] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:58:04,164 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:04] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:58:04,218 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:58:07,204 | INFO | Analytics logged: {'user_id': 'a1f0153c-0902-4cd5-9e11-7be10f3886b5', 'query': 'gdfsgsdfgs', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:58:07.204819'}
+2025-07-08 20:58:07,204 | INFO | Session 'a1f0153c-0902-4cd5-9e11-7be10f3886b5' logged history event.
+2025-07-08 20:58:07,205 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:07] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:09,227 | INFO | Analytics logged: {'user_id': '0a3e44e8-c30e-47ec-aa22-f0aa16fee333', 'query': 'sdfs', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:58:09.227813'}
+2025-07-08 20:58:09,228 | INFO | Session '0a3e44e8-c30e-47ec-aa22-f0aa16fee333' logged history event.
+2025-07-08 20:58:09,228 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:09] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:10,131 | INFO | Analytics logged: {'user_id': 'b21af24a-4c70-46ab-a327-ed6d7b500611', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:58:10.131510'}
+2025-07-08 20:58:10,131 | INFO | Session 'b21af24a-4c70-46ab-a327-ed6d7b500611' logged history event.
+2025-07-08 20:58:10,132 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:10] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:10,384 | INFO | Analytics logged: {'user_id': 'cf02c4e1-ff8e-4ab8-843c-3a7734f04c6f', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:58:10.384368'}
+2025-07-08 20:58:10,384 | INFO | Session 'cf02c4e1-ff8e-4ab8-843c-3a7734f04c6f' logged history event.
+2025-07-08 20:58:10,385 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:10] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:10,899 | INFO | Analytics logged: {'user_id': '9f571c7d-1ac8-439f-b042-5e2c6ede87ee', 'query': 'aas', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:58:10.899081'}
+2025-07-08 20:58:10,900 | INFO | Session '9f571c7d-1ac8-439f-b042-5e2c6ede87ee' logged history event.
+2025-07-08 20:58:10,900 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:10] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:11,606 | INFO | Analytics logged: {'user_id': '1c3abce8-8f8b-4cf6-b72d-d5b2d3e70994', 'query': 'as', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T20:58:11.606818'}
+2025-07-08 20:58:11,606 | INFO | Session '1c3abce8-8f8b-4cf6-b72d-d5b2d3e70994' logged history event.
+2025-07-08 20:58:11,607 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:11] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 20:58:12,253 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:12] "GET /admin HTTP/1.1" 200 -
+2025-07-08 20:58:12,337 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:58:14,543 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:14] "[32mPOST /admin HTTP/1.1[0m" 302 -
+2025-07-08 20:58:14,835 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:14] "GET /admin/protected HTTP/1.1" 200 -
+2025-07-08 20:58:15,177 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:15] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:58:23,905 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:23] "GET /admin HTTP/1.1" 200 -
+2025-07-08 20:58:24,204 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:24] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:58:28,410 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:28] "GET / HTTP/1.1" 200 -
+2025-07-08 20:58:28,462 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:58:28,660 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:58:28,767 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:28] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:58:28,767 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:28] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:58:28,986 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:28] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:58:42,564 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:58:42,620 | INFO | 127.0.0.1 - - [08/Jul/2025 20:58:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:59:54,541 | INFO | 127.0.0.1 - - [08/Jul/2025 20:59:54] "GET / HTTP/1.1" 200 -
+2025-07-08 20:59:54,589 | INFO | 127.0.0.1 - - [08/Jul/2025 20:59:54] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 20:59:54,791 | INFO | 127.0.0.1 - - [08/Jul/2025 20:59:54] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 20:59:54,884 | INFO | 127.0.0.1 - - [08/Jul/2025 20:59:54] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 20:59:54,885 | INFO | 127.0.0.1 - - [08/Jul/2025 20:59:54] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 20:59:54,941 | INFO | 127.0.0.1 - - [08/Jul/2025 20:59:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 20:59:57,671 | INFO | 127.0.0.1 - - [08/Jul/2025 20:59:57] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 20:59:57,676 | INFO | Defaulting to 'general' intent for query 'asdas'.
+2025-07-08 20:59:59,156 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:00,350 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:01,591 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:02,959 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:02] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:02,963 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:04,363 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:07,025 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:07] "GET /about HTTP/1.1" 200 -
+2025-07-08 21:00:07,074 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:00:07,274 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:00:07,379 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:07] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:00:09,854 | INFO | Analytics logged: {'user_id': '520b6344-1af4-49db-8a33-c208339e62da', 'query': 'asdas', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:09.854497'}
+2025-07-08 21:00:09,855 | INFO | Session '520b6344-1af4-49db-8a33-c208339e62da' logged history event.
+2025-07-08 21:00:09,855 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:09] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:10,176 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:10] "GET /contact HTTP/1.1" 200 -
+2025-07-08 21:00:10,223 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:00:11,152 | INFO | Analytics logged: {'user_id': 'f20ce60b-91a2-449a-860f-2241accac7ae', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:11.152747'}
+2025-07-08 21:00:11,153 | INFO | Session 'f20ce60b-91a2-449a-860f-2241accac7ae' logged history event.
+2025-07-08 21:00:11,153 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:11] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:11,188 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:11] "GET / HTTP/1.1" 200 -
+2025-07-08 21:00:11,490 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:00:11,546 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:11] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:00:11,550 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:11] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:00:11,553 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:11] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:00:11,820 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:00:12,446 | INFO | Analytics logged: {'user_id': 'e2a0945f-7aa3-40ea-b289-1903835a65fa', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:12.446388'}
+2025-07-08 21:00:12,447 | INFO | Session 'e2a0945f-7aa3-40ea-b289-1903835a65fa' logged history event.
+2025-07-08 21:00:12,447 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:12] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:13,990 | INFO | Analytics logged: {'user_id': '11d36956-a92c-4647-90b8-ecfee9461e31', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:13.990290'}
+2025-07-08 21:00:13,990 | INFO | Session '11d36956-a92c-4647-90b8-ecfee9461e31' logged history event.
+2025-07-08 21:00:13,990 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:13] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:14,755 | INFO | Analytics logged: {'user_id': '6b295961-2396-4f33-8b8b-f9518efa468d', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:14.755246'}
+2025-07-08 21:00:14,755 | INFO | Session '6b295961-2396-4f33-8b8b-f9518efa468d' logged history event.
+2025-07-08 21:00:14,756 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:14] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:16,438 | INFO | Analytics logged: {'user_id': 'bd1cf8f7-91c9-45ae-b28f-53fcf9f00c4f', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:16.438402'}
+2025-07-08 21:00:16,439 | INFO | Session 'bd1cf8f7-91c9-45ae-b28f-53fcf9f00c4f' logged history event.
+2025-07-08 21:00:16,440 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:16] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:17,893 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:17] "GET / HTTP/1.1" 200 -
+2025-07-08 21:00:17,929 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:00:18,153 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:18] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:00:18,233 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:18] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:00:18,234 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:18] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:00:18,478 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:18] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:00:21,613 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:21] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:21,617 | INFO | Defaulting to 'general' intent for query 'asd\'.
+2025-07-08 21:00:22,070 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:22,414 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:22,696 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:22,983 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:23,249 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:24,585 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:24] "GET / HTTP/1.1" 200 -
+2025-07-08 21:00:24,626 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:00:24,837 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:24] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:00:24,931 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:24] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:00:24,933 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:24] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:00:25,027 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:00:30,454 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:30] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:30,459 | INFO | Defaulting to 'general' intent for query 'asda'.
+2025-07-08 21:00:30,495 | INFO | Analytics logged: {'user_id': '1931bbd2-c6f3-4979-b19c-898d7d5a7548', 'query': 'asda', 'response': '\U0001f4d8 Sda (SE-231) for BS-SE 4th - Section  is on Thursday from 09:30 to 11:00 in SSG-17 with Mr.Shahrukh. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Monday from 11:00 to 00:30 in R5 with Dr.Mirza Amir. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Thursday from 00:30 to 02:00 in R7 with Dr.Mirza Amir.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:30.495655'}
+2025-07-08 21:00:30,495 | INFO | Session '1931bbd2-c6f3-4979-b19c-898d7d5a7548' logged history event.
+2025-07-08 21:00:30,496 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:30] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:30,735 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:31,011 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:31,279 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:31,479 | INFO | Defaulting to 'general' intent for query 'as'.
+2025-07-08 21:00:31,730 | INFO | Defaulting to 'general' intent for query 'dasd'.
+2025-07-08 21:00:31,766 | INFO | Analytics logged: {'user_id': '793600f3-5342-416e-9aca-2c70814b168a', 'query': 'dasd', 'response': '\U0001f4d8 Dsd (EE 302) for BS-CE 6th - Section  is on Tuesday from 09:30 to 11:00 in SSG-56 with Mr.Arsalan Ul Haq. \U0001f4d8 Dsd (EE 302) for BS-CE 6th - Section  is on Thursday from 09:30 to 11:00 in SSG-56 with Dr.Sibghat Ullah.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:31.766591'}
+2025-07-08 21:00:31,766 | INFO | Session '793600f3-5342-416e-9aca-2c70814b168a' logged history event.
+2025-07-08 21:00:31,767 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:31] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:31,943 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:32,158 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:33,491 | INFO | Analytics logged: {'user_id': '445bea18-47d7-4be7-b731-a06a7fd9aecc', 'query': 'asd\\', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:33.491502'}
+2025-07-08 21:00:33,491 | INFO | Session '445bea18-47d7-4be7-b731-a06a7fd9aecc' logged history event.
+2025-07-08 21:00:33,492 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:33] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:34,240 | INFO | Analytics logged: {'user_id': '6015dbad-7a33-4769-a87e-f22dc72d0980', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:34.240900'}
+2025-07-08 21:00:34,240 | INFO | Session '6015dbad-7a33-4769-a87e-f22dc72d0980' logged history event.
+2025-07-08 21:00:34,241 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:34] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:34,384 | INFO | Analytics logged: {'user_id': '97dab395-8355-46e1-9c9f-e4832661ab6a', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:34.384884'}
+2025-07-08 21:00:34,384 | INFO | Session '97dab395-8355-46e1-9c9f-e4832661ab6a' logged history event.
+2025-07-08 21:00:34,385 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:34] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:34,925 | INFO | Analytics logged: {'user_id': '3c342287-a0cb-4903-9849-75687344befe', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:34.925010'}
+2025-07-08 21:00:34,925 | INFO | Session '3c342287-a0cb-4903-9849-75687344befe' logged history event.
+2025-07-08 21:00:34,925 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:34] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:34,996 | INFO | Analytics logged: {'user_id': '4b961e14-9305-4982-bbd4-3f2370b67274', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:34.996751'}
+2025-07-08 21:00:34,996 | INFO | Session '4b961e14-9305-4982-bbd4-3f2370b67274' logged history event.
+2025-07-08 21:00:34,997 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:34] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:35,426 | INFO | Analytics logged: {'user_id': '77358bea-4758-4422-88cf-a288326da046', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:35.426119'}
+2025-07-08 21:00:35,426 | INFO | Session '77358bea-4758-4422-88cf-a288326da046' logged history event.
+2025-07-08 21:00:35,427 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:35] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:42,825 | INFO | Analytics logged: {'user_id': '5fa214a6-cd66-44d6-ada4-6e1eec9ca163', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:42.825996'}
+2025-07-08 21:00:42,826 | INFO | Session '5fa214a6-cd66-44d6-ada4-6e1eec9ca163' logged history event.
+2025-07-08 21:00:42,826 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:42] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:42,834 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:43,027 | INFO | Analytics logged: {'user_id': 'd01e25a8-da14-4e74-923f-b5789d3b74a9', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:43.027051'}
+2025-07-08 21:00:43,027 | INFO | Session 'd01e25a8-da14-4e74-923f-b5789d3b74a9' logged history event.
+2025-07-08 21:00:43,028 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:43] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:43,031 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:43,284 | INFO | Analytics logged: {'user_id': '65d0bdba-61e0-4699-9b4e-4bae9b78536e', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:43.284715'}
+2025-07-08 21:00:43,284 | INFO | Session '65d0bdba-61e0-4699-9b4e-4bae9b78536e' logged history event.
+2025-07-08 21:00:43,285 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:43] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:43,289 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:43,616 | INFO | Analytics logged: {'user_id': '20bd56af-c833-4b66-8b08-d33091522abd', 'query': 'as', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:43.616125'}
+2025-07-08 21:00:43,616 | INFO | Session '20bd56af-c833-4b66-8b08-d33091522abd' logged history event.
+2025-07-08 21:00:43,617 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:43] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:43,620 | INFO | Defaulting to 'general' intent for query 'as'.
+2025-07-08 21:00:44,210 | INFO | Analytics logged: {'user_id': '58cb97f5-da1b-4f33-9db9-39c0e1bf6d12', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:44.210659'}
+2025-07-08 21:00:44,210 | INFO | Session '58cb97f5-da1b-4f33-9db9-39c0e1bf6d12' logged history event.
+2025-07-08 21:00:44,211 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:44] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:44,214 | INFO | Defaulting to 'general' intent for query 'das'.
+2025-07-08 21:00:44,260 | INFO | Analytics logged: {'user_id': '614bc694-a91f-4ae3-8d46-a8a05d7d94f4', 'query': 'das', 'response': 'Multiple classes found for your query. Please specify section (options: b, a, ) or program (options: bs-it, bs-ce, bs-se, bs-cs, bs-ee).', 'intent': 'general', 'timestamp': '2025-07-08T21:00:44.260447'}
+2025-07-08 21:00:44,260 | INFO | Session '614bc694-a91f-4ae3-8d46-a8a05d7d94f4' logged history event.
+2025-07-08 21:00:44,261 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:44] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:44,264 | INFO | Defaulting to 'general' intent for query 'das'.
+2025-07-08 21:00:44,303 | INFO | Analytics logged: {'user_id': '2899d4ca-6be7-4bc3-b05d-e30e95b10856', 'query': 'das', 'response': 'Multiple classes found for your query. Please specify section (options: b, a, ) or program (options: bs-it, bs-ce, bs-se, bs-cs, bs-ee).', 'intent': 'general', 'timestamp': '2025-07-08T21:00:44.303378'}
+2025-07-08 21:00:44,303 | INFO | Session '2899d4ca-6be7-4bc3-b05d-e30e95b10856' logged history event.
+2025-07-08 21:00:44,304 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:44] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:44,308 | INFO | Defaulting to 'general' intent for query 'd'.
+2025-07-08 21:00:44,342 | INFO | Analytics logged: {'user_id': '4335bf41-3a45-40fe-a0cd-96b527292c6a', 'query': 'd', 'response': '', 'intent': 'general', 'timestamp': '2025-07-08T21:00:44.342417'}
+2025-07-08 21:00:44,342 | INFO | Session '4335bf41-3a45-40fe-a0cd-96b527292c6a' logged history event.
+2025-07-08 21:00:44,343 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:44] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:44,346 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 21:00:44,355 | INFO | Analytics logged: {'user_id': '4066ef83-dfb7-4003-aef3-cb2bb245b95b', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:44.355106'}
+2025-07-08 21:00:44,355 | INFO | Session '4066ef83-dfb7-4003-aef3-cb2bb245b95b' logged history event.
+2025-07-08 21:00:44,356 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:44] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:44,359 | INFO | Defaulting to 'general' intent for query 'as'.
+2025-07-08 21:00:54,862 | INFO | Analytics logged: {'user_id': '0a626d95-dfe2-4286-890d-04577bce663a', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:54.862275'}
+2025-07-08 21:00:54,863 | INFO | Session '0a626d95-dfe2-4286-890d-04577bce663a' logged history event.
+2025-07-08 21:00:54,863 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:54] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:54,997 | INFO | Analytics logged: {'user_id': '28e63c84-5eea-4195-8900-dcb49d45015b', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:54.997026'}
+2025-07-08 21:00:54,997 | INFO | Session '28e63c84-5eea-4195-8900-dcb49d45015b' logged history event.
+2025-07-08 21:00:54,998 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:54] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:55,486 | INFO | Analytics logged: {'user_id': '3a9578d8-8f46-4be8-8116-dff91ae95582', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:55.486652'}
+2025-07-08 21:00:55,486 | INFO | Session '3a9578d8-8f46-4be8-8116-dff91ae95582' logged history event.
+2025-07-08 21:00:55,487 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:55] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:55,588 | INFO | Analytics logged: {'user_id': '40e72fc9-c54d-4d75-aae7-b2df82813215', 'query': 'as', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:55.588240'}
+2025-07-08 21:00:55,589 | INFO | Session '40e72fc9-c54d-4d75-aae7-b2df82813215' logged history event.
+2025-07-08 21:00:55,589 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:55] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:56,339 | INFO | Analytics logged: {'user_id': 'e2b2c89d-9e70-4b50-83da-20a38fc0b715', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:56.339150'}
+2025-07-08 21:00:56,339 | INFO | Session 'e2b2c89d-9e70-4b50-83da-20a38fc0b715' logged history event.
+2025-07-08 21:00:56,340 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:56] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:00:56,473 | INFO | Analytics logged: {'user_id': 'c60de928-838c-4e53-bb5e-6eaa981fd603', 'query': 'as', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T21:00:56.473455'}
+2025-07-08 21:00:56,473 | INFO | Session 'c60de928-838c-4e53-bb5e-6eaa981fd603' logged history event.
+2025-07-08 21:00:56,474 | INFO | 127.0.0.1 - - [08/Jul/2025 21:00:56] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:02:06,736 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:06] "GET / HTTP/1.1" 200 -
+2025-07-08 21:02:06,785 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:02:06,992 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:02:07,087 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:07] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:02:07,092 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:07] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:02:07,319 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:07] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:02:11,367 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:11] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 21:02:11,373 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:11] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:02:12,849 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:12] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:02:14,647 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:14] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 21:02:17,531 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:17] "GET / HTTP/1.1" 200 -
+2025-07-08 21:02:17,581 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:02:17,781 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:02:17,895 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:17] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:02:17,898 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:17] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:02:18,118 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:18] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:02:30,134 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:30] "GET / HTTP/1.1" 200 -
+2025-07-08 21:02:30,184 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:02:30,397 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:30] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:02:30,485 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:30] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:02:30,491 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:30] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:02:30,730 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:30] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:02:38,599 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:38] "GET / HTTP/1.1" 200 -
+2025-07-08 21:02:38,626 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:02:38,849 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:38] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:02:38,935 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:38] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:02:38,973 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:38] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:02:41,253 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:41] "GET /about HTTP/1.1" 200 -
+2025-07-08 21:02:41,343 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:41] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:02:41,505 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:41] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:02:42,103 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:42] "GET /contact HTTP/1.1" 200 -
+2025-07-08 21:02:42,881 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:42] "GET / HTTP/1.1" 200 -
+2025-07-08 21:02:43,182 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:43] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:02:43,205 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:43] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:02:43,208 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:43] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:02:43,492 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:43] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:02:54,693 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:54] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:02:54,726 | INFO | 127.0.0.1 - - [08/Jul/2025 21:02:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:09:58,186 | INFO | 127.0.0.1 - - [08/Jul/2025 21:09:58] "GET / HTTP/1.1" 200 -
+2025-07-08 21:09:58,232 | INFO | 127.0.0.1 - - [08/Jul/2025 21:09:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:09:58,433 | INFO | 127.0.0.1 - - [08/Jul/2025 21:09:58] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:09:58,523 | INFO | 127.0.0.1 - - [08/Jul/2025 21:09:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:09:58,524 | INFO | 127.0.0.1 - - [08/Jul/2025 21:09:58] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:09:58,577 | INFO | 127.0.0.1 - - [08/Jul/2025 21:09:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:10:14,127 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:14] "GET /about HTTP/1.1" 200 -
+2025-07-08 21:10:14,228 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:10:14,378 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:14] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:10:15,353 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:15] "GET /contact HTTP/1.1" 200 -
+2025-07-08 21:10:16,607 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:16] "GET / HTTP/1.1" 200 -
+2025-07-08 21:10:16,908 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:10:16,950 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:16] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:10:16,951 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:16] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:10:17,216 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:17] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:10:20,573 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:20] "GET / HTTP/1.1" 200 -
+2025-07-08 21:10:20,608 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:10:20,824 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:20] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:10:20,923 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:20] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:10:20,936 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:20] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:10:23,488 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:10:23,506 | INFO | 127.0.0.1 - - [08/Jul/2025 21:10:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:51:00,448 | INFO | 127.0.0.1 - - [08/Jul/2025 21:51:00] "GET / HTTP/1.1" 200 -
+2025-07-08 21:51:00,518 | INFO | 127.0.0.1 - - [08/Jul/2025 21:51:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:51:00,697 | INFO | 127.0.0.1 - - [08/Jul/2025 21:51:00] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:51:00,823 | INFO | 127.0.0.1 - - [08/Jul/2025 21:51:00] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:51:00,854 | INFO | 127.0.0.1 - - [08/Jul/2025 21:51:00] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:51:00,877 | INFO | 127.0.0.1 - - [08/Jul/2025 21:51:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:52:17,570 | INFO | 127.0.0.1 - - [08/Jul/2025 21:52:17] "GET / HTTP/1.1" 200 -
+2025-07-08 21:52:17,603 | INFO | 127.0.0.1 - - [08/Jul/2025 21:52:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:52:17,821 | INFO | 127.0.0.1 - - [08/Jul/2025 21:52:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:52:17,909 | INFO | 127.0.0.1 - - [08/Jul/2025 21:52:17] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:52:17,910 | INFO | 127.0.0.1 - - [08/Jul/2025 21:52:17] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:52:18,146 | INFO | 127.0.0.1 - - [08/Jul/2025 21:52:18] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:55:06,652 | INFO | 127.0.0.1 - - [08/Jul/2025 21:55:06] "GET / HTTP/1.1" 200 -
+2025-07-08 21:55:06,684 | INFO | 127.0.0.1 - - [08/Jul/2025 21:55:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:55:06,914 | INFO | 127.0.0.1 - - [08/Jul/2025 21:55:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:55:06,987 | INFO | 127.0.0.1 - - [08/Jul/2025 21:55:06] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:55:06,989 | INFO | 127.0.0.1 - - [08/Jul/2025 21:55:06] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:55:07,235 | INFO | 127.0.0.1 - - [08/Jul/2025 21:55:07] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:55:09,836 | INFO | 127.0.0.1 - - [08/Jul/2025 21:55:09] "GET / HTTP/1.1" 200 -
+2025-07-08 21:55:09,949 | INFO | 127.0.0.1 - - [08/Jul/2025 21:55:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:55:10,088 | INFO | 127.0.0.1 - - [08/Jul/2025 21:55:10] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:55:10,189 | INFO | 127.0.0.1 - - [08/Jul/2025 21:55:10] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 21:55:10,190 | INFO | 127.0.0.1 - - [08/Jul/2025 21:55:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:55:10,191 | INFO | 127.0.0.1 - - [08/Jul/2025 21:55:10] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:58:46,137 | INFO | 127.0.0.1 - - [08/Jul/2025 21:58:46] "GET / HTTP/1.1" 200 -
+2025-07-08 21:58:46,184 | INFO | 127.0.0.1 - - [08/Jul/2025 21:58:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 21:58:46,366 | INFO | 127.0.0.1 - - [08/Jul/2025 21:58:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 21:58:46,488 | INFO | 127.0.0.1 - - [08/Jul/2025 21:58:46] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 21:58:46,489 | INFO | 127.0.0.1 - - [08/Jul/2025 21:58:46] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 21:58:46,690 | INFO | 127.0.0.1 - - [08/Jul/2025 21:58:46] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:00:42,058 | INFO | 127.0.0.1 - - [08/Jul/2025 22:00:42] "GET / HTTP/1.1" 200 -
+2025-07-08 22:00:42,095 | INFO | 127.0.0.1 - - [08/Jul/2025 22:00:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:00:42,285 | INFO | 127.0.0.1 - - [08/Jul/2025 22:00:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:00:42,405 | INFO | 127.0.0.1 - - [08/Jul/2025 22:00:42] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:00:42,406 | INFO | 127.0.0.1 - - [08/Jul/2025 22:00:42] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:00:42,636 | INFO | 127.0.0.1 - - [08/Jul/2025 22:00:42] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:01:00,991 | INFO | 127.0.0.1 - - [08/Jul/2025 22:01:00] "GET /about HTTP/1.1" 200 -
+2025-07-08 22:01:01,090 | INFO | 127.0.0.1 - - [08/Jul/2025 22:01:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:01:01,241 | INFO | 127.0.0.1 - - [08/Jul/2025 22:01:01] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:01:07,512 | INFO | 127.0.0.1 - - [08/Jul/2025 22:01:07] "GET / HTTP/1.1" 200 -
+2025-07-08 22:01:07,812 | INFO | 127.0.0.1 - - [08/Jul/2025 22:01:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:01:07,860 | INFO | 127.0.0.1 - - [08/Jul/2025 22:01:07] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:01:07,861 | INFO | 127.0.0.1 - - [08/Jul/2025 22:01:07] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:01:08,122 | INFO | 127.0.0.1 - - [08/Jul/2025 22:01:08] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:03:06,004 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:06] "GET / HTTP/1.1" 200 -
+2025-07-08 22:03:06,040 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:03:06,229 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:06] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:03:06,332 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:06] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:03:06,369 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:06] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:03:09,100 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:03:09,117 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:03:10,990 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:10] "GET /about HTTP/1.1" 200 -
+2025-07-08 22:03:11,290 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:03:11,337 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:11] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:03:11,337 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:03:15,213 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:15] "GET / HTTP/1.1" 200 -
+2025-07-08 22:03:15,307 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:03:15,464 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:15] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:03:15,559 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:15] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:03:15,561 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:15] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:03:16,926 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:16] "GET /about HTTP/1.1" 200 -
+2025-07-08 22:03:17,225 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:03:17,268 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:17] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:03:18,567 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:18] "GET / HTTP/1.1" 200 -
+2025-07-08 22:03:18,661 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:18] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:03:18,818 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:18] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:03:18,891 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:18] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:03:18,892 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:18] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:03:21,917 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:03:22,252 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:03:40,368 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:40] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:40,373 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:40] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:41,870 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:41] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:43,592 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:43] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:47,190 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:47] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:47,194 | INFO | Defaulting to 'general' intent for query 'adsa'.
+2025-07-08 22:03:47,232 | INFO | Analytics logged: {'user_id': '6ba19684-20d9-44ac-aafa-b09654e92e5c', 'query': 'adsa', 'response': 'Multiple classes found for your query. Please specify section (options: ) or program (options: bs-ce, bs-se).', 'intent': 'general', 'timestamp': '2025-07-08T22:03:47.232834'}
+2025-07-08 22:03:47,232 | INFO | Session '6ba19684-20d9-44ac-aafa-b09654e92e5c' logged history event.
+2025-07-08 22:03:47,233 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:47] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:48,274 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 22:03:48,667 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 22:03:48,975 | INFO | Defaulting to 'general' intent for query 'asd'.
+2025-07-08 22:03:49,268 | INFO | Defaulting to 'general' intent for query 'ad'.
+2025-07-08 22:03:49,309 | INFO | Analytics logged: {'user_id': 'c07acc8a-4eab-4403-8790-70b71b5feca7', 'query': 'ad', 'response': '\U0001f4d8 Mad () for BS-CS 6th - Section  is on Tuesday from 11:00 to 02:00 in FYP LAB with Mr.Shah Zaman. \U0001f4d8 Mad () for BS-CS 6th - Section  is on Thursday from 09:00 to 11:00 in R7 with Mr.Shah Zaman.', 'intent': 'general', 'timestamp': '2025-07-08T22:03:49.309006'}
+2025-07-08 22:03:49,309 | INFO | Session 'c07acc8a-4eab-4403-8790-70b71b5feca7' logged history event.
+2025-07-08 22:03:49,309 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:49] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:49,545 | INFO | Defaulting to 'general' intent for query 'as'.
+2025-07-08 22:03:49,826 | INFO | Defaulting to 'general' intent for query 'da'.
+2025-07-08 22:03:49,862 | INFO | Analytics logged: {'user_id': 'd5ca3847-8735-4015-9308-be053b6ea742', 'query': 'da', 'response': '\U0001f4d8 Sda (SE-231) for BS-SE 4th - Section  is on Thursday from 09:30 to 11:00 in SSG-17 with Mr.Shahrukh. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Monday from 11:00 to 00:30 in R5 with Dr.Mirza Amir. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Thursday from 00:30 to 02:00 in R7 with Dr.Mirza Amir.', 'intent': 'general', 'timestamp': '2025-07-08T22:03:49.862153'}
+2025-07-08 22:03:49,862 | INFO | Session 'd5ca3847-8735-4015-9308-be053b6ea742' logged history event.
+2025-07-08 22:03:49,863 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:49] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:50,154 | INFO | Defaulting to 'general' intent for query 'sdas'.
+2025-07-08 22:03:50,192 | INFO | Analytics logged: {'user_id': '358fd6d3-7b9d-474e-9152-2d4e38d5a10f', 'query': 'sdas', 'response': '\U0001f4d8 Sda (SE-231) for BS-SE 4th - Section  is on Thursday from 09:30 to 11:00 in SSG-17 with Mr.Shahrukh. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Monday from 11:00 to 00:30 in R5 with Dr.Mirza Amir. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Thursday from 00:30 to 02:00 in R7 with Dr.Mirza Amir.', 'intent': 'general', 'timestamp': '2025-07-08T22:03:50.192243'}
+2025-07-08 22:03:50,192 | INFO | Session '358fd6d3-7b9d-474e-9152-2d4e38d5a10f' logged history event.
+2025-07-08 22:03:50,193 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:50] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:50,430 | INFO | Defaulting to 'general' intent for query 'd'.
+2025-07-08 22:03:50,466 | INFO | Analytics logged: {'user_id': '9ac97b01-a0d2-4f81-9de4-0549557629b7', 'query': 'd', 'response': '', 'intent': 'general', 'timestamp': '2025-07-08T22:03:50.465810'}
+2025-07-08 22:03:50,466 | INFO | Session '9ac97b01-a0d2-4f81-9de4-0549557629b7' logged history event.
+2025-07-08 22:03:50,466 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:50] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:50,760 | INFO | Defaulting to 'general' intent for query 'asda'.
+2025-07-08 22:03:50,801 | INFO | Analytics logged: {'user_id': '7320d4fd-46a2-4d79-807f-ac79316117e2', 'query': 'asda', 'response': '\U0001f4d8 Sda (SE-231) for BS-SE 4th - Section  is on Thursday from 09:30 to 11:00 in SSG-17 with Mr.Shahrukh. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Monday from 11:00 to 00:30 in R5 with Dr.Mirza Amir. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Thursday from 00:30 to 02:00 in R7 with Dr.Mirza Amir.', 'intent': 'general', 'timestamp': '2025-07-08T22:03:50.801806'}
+2025-07-08 22:03:50,801 | INFO | Session '7320d4fd-46a2-4d79-807f-ac79316117e2' logged history event.
+2025-07-08 22:03:50,801 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:50] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:51,029 | INFO | Defaulting to 'general' intent for query 'sdas'.
+2025-07-08 22:03:51,080 | INFO | Analytics logged: {'user_id': '4f777c64-3e2b-4cf9-a5b9-0a7e2dea7728', 'query': 'sdas', 'response': '\U0001f4d8 Sda (SE-231) for BS-SE 4th - Section  is on Thursday from 09:30 to 11:00 in SSG-17 with Mr.Shahrukh. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Monday from 11:00 to 00:30 in R5 with Dr.Mirza Amir. \U0001f4d8 Sda () for BS-CS 6th - Section  is on Thursday from 00:30 to 02:00 in R7 with Dr.Mirza Amir.', 'intent': 'general', 'timestamp': '2025-07-08T22:03:51.080797'}
+2025-07-08 22:03:51,080 | INFO | Session '4f777c64-3e2b-4cf9-a5b9-0a7e2dea7728' logged history event.
+2025-07-08 22:03:51,081 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:51] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:51,254 | INFO | Defaulting to 'general' intent for query 'das'.
+2025-07-08 22:03:51,303 | INFO | Analytics logged: {'user_id': '301eefd2-74b2-4500-8805-8d42fee8c017', 'query': 'das', 'response': 'Multiple classes found for your query. Please specify section (options: b, a, ) or program (options: bs-it, bs-ce, bs-se, bs-cs, bs-ee).', 'intent': 'general', 'timestamp': '2025-07-08T22:03:51.303740'}
+2025-07-08 22:03:51,303 | INFO | Session '301eefd2-74b2-4500-8805-8d42fee8c017' logged history event.
+2025-07-08 22:03:51,304 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:51] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:51,478 | INFO | Defaulting to 'general' intent for query 'ds'.
+2025-07-08 22:03:51,518 | INFO | Analytics logged: {'user_id': '7e67fc72-f70e-4c28-8d26-6621b2cd9f72', 'query': 'ds', 'response': 'Multiple classes found for your query. Please specify section (options: b, a, ) or program (options: bs-it, bs-ce, bs-se, bs-cs, bs-ee).', 'intent': 'general', 'timestamp': '2025-07-08T22:03:51.518949'}
+2025-07-08 22:03:51,519 | INFO | Session '7e67fc72-f70e-4c28-8d26-6621b2cd9f72' logged history event.
+2025-07-08 22:03:51,519 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:51] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:03:55,578 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:55] "GET / HTTP/1.1" 200 -
+2025-07-08 22:03:55,875 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:03:55,922 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:55] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:03:55,924 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:55] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:03:55,940 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:55] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:03:56,199 | INFO | 127.0.0.1 - - [08/Jul/2025 22:03:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:04:00,262 | INFO | Analytics logged: {'user_id': '8f6e1ec0-0fa6-4e2a-8cea-9bbcdaf68ca6', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T22:04:00.262605'}
+2025-07-08 22:04:00,262 | INFO | Session '8f6e1ec0-0fa6-4e2a-8cea-9bbcdaf68ca6' logged history event.
+2025-07-08 22:04:00,263 | INFO | 127.0.0.1 - - [08/Jul/2025 22:04:00] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:04:00,568 | INFO | Analytics logged: {'user_id': 'df438db6-2813-433a-9cd9-07d6806c821f', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T22:04:00.568038'}
+2025-07-08 22:04:00,568 | INFO | Session 'df438db6-2813-433a-9cd9-07d6806c821f' logged history event.
+2025-07-08 22:04:00,569 | INFO | 127.0.0.1 - - [08/Jul/2025 22:04:00] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:04:01,186 | INFO | Analytics logged: {'user_id': '840184a3-a3f8-4429-870c-31e82801a3cb', 'query': 'asd', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T22:04:01.186625'}
+2025-07-08 22:04:01,186 | INFO | Session '840184a3-a3f8-4429-870c-31e82801a3cb' logged history event.
+2025-07-08 22:04:01,187 | INFO | 127.0.0.1 - - [08/Jul/2025 22:04:01] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:04:01,520 | INFO | Analytics logged: {'user_id': 'fa5a7b4f-82f7-49a4-bb18-6751a43cb7c1', 'query': 'as', 'response': 'Our BUITEMS assistant is currently unavailable.', 'intent': 'general', 'timestamp': '2025-07-08T22:04:01.520225'}
+2025-07-08 22:04:01,520 | INFO | Session 'fa5a7b4f-82f7-49a4-bb18-6751a43cb7c1' logged history event.
+2025-07-08 22:04:01,521 | INFO | 127.0.0.1 - - [08/Jul/2025 22:04:01] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:07:48,605 | INFO | 127.0.0.1 - - [08/Jul/2025 22:07:48] "GET / HTTP/1.1" 200 -
+2025-07-08 22:07:48,647 | INFO | 127.0.0.1 - - [08/Jul/2025 22:07:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:07:48,835 | INFO | 127.0.0.1 - - [08/Jul/2025 22:07:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:07:48,950 | INFO | 127.0.0.1 - - [08/Jul/2025 22:07:48] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:07:48,952 | INFO | 127.0.0.1 - - [08/Jul/2025 22:07:48] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:07:49,175 | INFO | 127.0.0.1 - - [08/Jul/2025 22:07:49] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:09:39,360 | INFO | 127.0.0.1 - - [08/Jul/2025 22:09:39] "GET / HTTP/1.1" 200 -
+2025-07-08 22:09:39,401 | INFO | 127.0.0.1 - - [08/Jul/2025 22:09:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:09:39,621 | INFO | 127.0.0.1 - - [08/Jul/2025 22:09:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:09:39,717 | INFO | 127.0.0.1 - - [08/Jul/2025 22:09:39] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:09:39,725 | INFO | 127.0.0.1 - - [08/Jul/2025 22:09:39] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:09:39,947 | INFO | 127.0.0.1 - - [08/Jul/2025 22:09:39] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:09:42,627 | INFO | 127.0.0.1 - - [08/Jul/2025 22:09:42] "GET / HTTP/1.1" 200 -
+2025-07-08 22:09:42,728 | INFO | 127.0.0.1 - - [08/Jul/2025 22:09:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:09:42,876 | INFO | 127.0.0.1 - - [08/Jul/2025 22:09:42] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:09:42,959 | INFO | 127.0.0.1 - - [08/Jul/2025 22:09:42] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:09:42,962 | INFO | 127.0.0.1 - - [08/Jul/2025 22:09:42] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:09:42,991 | INFO | 127.0.0.1 - - [08/Jul/2025 22:09:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:10:50,159 | INFO | 127.0.0.1 - - [08/Jul/2025 22:10:50] "GET / HTTP/1.1" 200 -
+2025-07-08 22:10:50,216 | INFO | 127.0.0.1 - - [08/Jul/2025 22:10:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:10:50,420 | INFO | 127.0.0.1 - - [08/Jul/2025 22:10:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:10:50,520 | INFO | 127.0.0.1 - - [08/Jul/2025 22:10:50] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:10:50,523 | INFO | 127.0.0.1 - - [08/Jul/2025 22:10:50] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:10:50,742 | INFO | 127.0.0.1 - - [08/Jul/2025 22:10:50] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:11:10,194 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:10] "GET / HTTP/1.1" 200 -
+2025-07-08 22:11:10,233 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:11:10,450 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:11:10,537 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:10] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:11:10,538 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:10] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:11:10,770 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:10] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:11:20,039 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:20] "GET / HTTP/1.1" 200 -
+2025-07-08 22:11:20,066 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:20] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:11:20,298 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:11:20,372 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:20] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:11:20,375 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:20] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:11:20,614 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:20] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:11:21,199 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:21] "GET / HTTP/1.1" 200 -
+2025-07-08 22:11:21,234 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:11:21,450 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:11:21,537 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:21] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:11:21,540 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:21] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:11:21,791 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:21] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:11:45,953 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:45] "GET / HTTP/1.1" 200 -
+2025-07-08 22:11:45,985 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:11:46,214 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:11:46,289 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:46] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:11:46,299 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:46] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:11:46,530 | INFO | 127.0.0.1 - - [08/Jul/2025 22:11:46] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:13:51,572 | INFO | 127.0.0.1 - - [08/Jul/2025 22:13:51] "GET / HTTP/1.1" 200 -
+2025-07-08 22:13:51,620 | INFO | 127.0.0.1 - - [08/Jul/2025 22:13:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:13:51,835 | INFO | 127.0.0.1 - - [08/Jul/2025 22:13:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:13:51,924 | INFO | 127.0.0.1 - - [08/Jul/2025 22:13:51] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:13:51,924 | INFO | 127.0.0.1 - - [08/Jul/2025 22:13:51] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:13:52,150 | INFO | 127.0.0.1 - - [08/Jul/2025 22:13:52] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:14:01,426 | INFO | 127.0.0.1 - - [08/Jul/2025 22:14:01] "GET / HTTP/1.1" 200 -
+2025-07-08 22:14:01,530 | INFO | 127.0.0.1 - - [08/Jul/2025 22:14:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:14:01,675 | INFO | 127.0.0.1 - - [08/Jul/2025 22:14:01] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:14:01,760 | INFO | 127.0.0.1 - - [08/Jul/2025 22:14:01] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:14:01,763 | INFO | 127.0.0.1 - - [08/Jul/2025 22:14:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:14:01,763 | INFO | 127.0.0.1 - - [08/Jul/2025 22:14:01] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:15:27,161 | INFO | 127.0.0.1 - - [08/Jul/2025 22:15:27] "GET /about HTTP/1.1" 200 -
+2025-07-08 22:15:27,222 | INFO | 127.0.0.1 - - [08/Jul/2025 22:15:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:15:27,414 | INFO | 127.0.0.1 - - [08/Jul/2025 22:15:27] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:15:27,528 | INFO | 127.0.0.1 - - [08/Jul/2025 22:15:27] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:15:43,850 | INFO | 127.0.0.1 - - [08/Jul/2025 22:15:43] "GET /contact HTTP/1.1" 200 -
+2025-07-08 22:15:43,915 | INFO | 127.0.0.1 - - [08/Jul/2025 22:15:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:15:49,504 | INFO | 127.0.0.1 - - [08/Jul/2025 22:15:49] "GET / HTTP/1.1" 200 -
+2025-07-08 22:15:49,804 | INFO | 127.0.0.1 - - [08/Jul/2025 22:15:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:15:49,856 | INFO | 127.0.0.1 - - [08/Jul/2025 22:15:49] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:15:49,861 | INFO | 127.0.0.1 - - [08/Jul/2025 22:15:49] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:15:49,868 | INFO | 127.0.0.1 - - [08/Jul/2025 22:15:49] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:15:50,118 | INFO | 127.0.0.1 - - [08/Jul/2025 22:15:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:16:57,914 | INFO | 127.0.0.1 - - [08/Jul/2025 22:16:57] "GET / HTTP/1.1" 200 -
+2025-07-08 22:16:57,980 | INFO | 127.0.0.1 - - [08/Jul/2025 22:16:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:16:58,176 | INFO | 127.0.0.1 - - [08/Jul/2025 22:16:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:16:58,284 | INFO | 127.0.0.1 - - [08/Jul/2025 22:16:58] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:16:58,288 | INFO | 127.0.0.1 - - [08/Jul/2025 22:16:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:16:58,520 | INFO | 127.0.0.1 - - [08/Jul/2025 22:16:58] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:17:21,466 | INFO | 127.0.0.1 - - [08/Jul/2025 22:17:21] "GET / HTTP/1.1" 200 -
+2025-07-08 22:17:21,500 | INFO | 127.0.0.1 - - [08/Jul/2025 22:17:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:17:21,726 | INFO | 127.0.0.1 - - [08/Jul/2025 22:17:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:17:21,809 | INFO | 127.0.0.1 - - [08/Jul/2025 22:17:21] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:17:21,811 | INFO | 127.0.0.1 - - [08/Jul/2025 22:17:21] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:17:22,047 | INFO | 127.0.0.1 - - [08/Jul/2025 22:17:22] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:19:42,988 | INFO | 127.0.0.1 - - [08/Jul/2025 22:19:42] "GET / HTTP/1.1" 200 -
+2025-07-08 22:19:43,040 | INFO | 127.0.0.1 - - [08/Jul/2025 22:19:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:19:43,241 | INFO | 127.0.0.1 - - [08/Jul/2025 22:19:43] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:19:43,343 | INFO | 127.0.0.1 - - [08/Jul/2025 22:19:43] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:19:43,372 | INFO | 127.0.0.1 - - [08/Jul/2025 22:19:43] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:19:43,562 | INFO | 127.0.0.1 - - [08/Jul/2025 22:19:43] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:23:18,048 | INFO | 127.0.0.1 - - [08/Jul/2025 22:23:18] "GET / HTTP/1.1" 200 -
+2025-07-08 22:23:18,100 | INFO | 127.0.0.1 - - [08/Jul/2025 22:23:18] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:23:18,273 | INFO | 127.0.0.1 - - [08/Jul/2025 22:23:18] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:23:18,394 | INFO | 127.0.0.1 - - [08/Jul/2025 22:23:18] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:23:18,395 | INFO | 127.0.0.1 - - [08/Jul/2025 22:23:18] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:23:18,454 | INFO | 127.0.0.1 - - [08/Jul/2025 22:23:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:23:58,995 | INFO | 127.0.0.1 - - [08/Jul/2025 22:23:58] "GET / HTTP/1.1" 200 -
+2025-07-08 22:23:59,216 | INFO | 127.0.0.1 - - [08/Jul/2025 22:23:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:23:59,345 | INFO | 127.0.0.1 - - [08/Jul/2025 22:23:59] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:23:59,346 | INFO | 127.0.0.1 - - [08/Jul/2025 22:23:59] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:23:59,349 | INFO | 127.0.0.1 - - [08/Jul/2025 22:23:59] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:23:59,528 | INFO | 127.0.0.1 - - [08/Jul/2025 22:23:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:27:21,584 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:21] "GET / HTTP/1.1" 200 -
+2025-07-08 22:27:21,622 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:27:21,789 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:27:21,929 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:21] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:27:21,931 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:21] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:27:22,103 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:22] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:27:27,559 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:27] "GET / HTTP/1.1" 200 -
+2025-07-08 22:27:27,658 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:27] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:27:27,810 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:27] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:27:27,892 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:27] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:27:27,894 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:27] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:27:27,898 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:27:28,379 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:28] "GET / HTTP/1.1" 200 -
+2025-07-08 22:27:28,680 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:27:28,721 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:28] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:27:28,723 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:28] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:27:28,738 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:28] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:27:28,990 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:27:29,592 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:29] "GET / HTTP/1.1" 200 -
+2025-07-08 22:27:29,622 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:27:29,843 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:29] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:27:29,927 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:29] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:27:29,930 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:29] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:27:30,177 | INFO | 127.0.0.1 - - [08/Jul/2025 22:27:30] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:29:14,538 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:14] "GET / HTTP/1.1" 200 -
+2025-07-08 22:29:14,590 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:29:14,804 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:29:14,895 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:14] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:29:14,897 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:14] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:29:15,138 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:15] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:29:18,617 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:18] "GET / HTTP/1.1" 200 -
+2025-07-08 22:29:18,722 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:18] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:29:18,867 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:18] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:29:18,965 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:18] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:29:18,966 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:18] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:29:18,976 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:29:19,907 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:19] "GET / HTTP/1.1" 200 -
+2025-07-08 22:29:20,208 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:29:20,252 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:20] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:29:20,255 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:20] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:29:20,256 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:20] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:29:20,518 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:20] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:29:22,473 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:22] "GET / HTTP/1.1" 200 -
+2025-07-08 22:29:22,528 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:29:22,723 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:29:22,834 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:22] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:29:22,836 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:22] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:29:23,149 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:23] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:29:23,149 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:23] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:29:24,107 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:24] "GET / HTTP/1.1" 200 -
+2025-07-08 22:29:24,408 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:29:24,447 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:24] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:29:24,450 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:24] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:29:24,466 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:24] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:29:24,722 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:24] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:29:25,831 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:25] "GET / HTTP/1.1" 200 -
+2025-07-08 22:29:25,934 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:29:26,081 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:26] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:29:26,175 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:29:26,175 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:26] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:29:26,177 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:26] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:29:26,747 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:26] "GET / HTTP/1.1" 200 -
+2025-07-08 22:29:27,045 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:27] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:29:27,094 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:27] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:29:27,098 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:27] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:29:27,098 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:27] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:29:27,359 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:29:27,864 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:27] "GET / HTTP/1.1" 200 -
+2025-07-08 22:29:27,900 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:29:28,203 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:29:28,207 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:28] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:29:28,210 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:28] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:29:28,520 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:28] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:29:28,527 | INFO | 127.0.0.1 - - [08/Jul/2025 22:29:28] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:30:30,761 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:30] "GET / HTTP/1.1" 200 -
+2025-07-08 22:30:30,853 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:30:31,022 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:30:31,157 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:31] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:30:31,159 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:31] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:30:31,339 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:31] "GET / HTTP/1.1" 200 -
+2025-07-08 22:30:31,471 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:30:31,695 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:31] "GET / HTTP/1.1" 200 -
+2025-07-08 22:30:31,702 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:31] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:30:31,720 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:31] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:30:31,727 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:30:31,728 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:31] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:30:31,792 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:30:32,026 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:32] "GET / HTTP/1.1" 200 -
+2025-07-08 22:30:32,030 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:32] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:30:32,044 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:32] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:30:32,076 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:32] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:30:32,077 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:30:32,107 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:30:32,370 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:32] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:30:32,372 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:32] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:30:32,374 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:32] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:30:32,392 | INFO | 127.0.0.1 - - [08/Jul/2025 22:30:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:31:23,264 | INFO | 127.0.0.1 - - [08/Jul/2025 22:31:23] "GET / HTTP/1.1" 200 -
+2025-07-08 22:31:23,561 | INFO | 127.0.0.1 - - [08/Jul/2025 22:31:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:31:23,614 | INFO | 127.0.0.1 - - [08/Jul/2025 22:31:23] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:31:23,615 | INFO | 127.0.0.1 - - [08/Jul/2025 22:31:23] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:31:23,876 | INFO | 127.0.0.1 - - [08/Jul/2025 22:31:23] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:31:26,734 | INFO | 127.0.0.1 - - [08/Jul/2025 22:31:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:31:26,752 | INFO | 127.0.0.1 - - [08/Jul/2025 22:31:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:32:01,649 | INFO | 127.0.0.1 - - [08/Jul/2025 22:32:01] "GET / HTTP/1.1" 200 -
+2025-07-08 22:32:01,913 | INFO | 127.0.0.1 - - [08/Jul/2025 22:32:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:32:01,989 | INFO | 127.0.0.1 - - [08/Jul/2025 22:32:01] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:32:01,991 | INFO | 127.0.0.1 - - [08/Jul/2025 22:32:01] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:32:01,999 | INFO | 127.0.0.1 - - [08/Jul/2025 22:32:01] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:32:02,232 | INFO | 127.0.0.1 - - [08/Jul/2025 22:32:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:33:21,367 | INFO | 127.0.0.1 - - [08/Jul/2025 22:33:21] "GET / HTTP/1.1" 200 -
+2025-07-08 22:33:21,418 | INFO | 127.0.0.1 - - [08/Jul/2025 22:33:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:33:21,577 | INFO | 127.0.0.1 - - [08/Jul/2025 22:33:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:33:21,722 | INFO | 127.0.0.1 - - [08/Jul/2025 22:33:21] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:33:21,725 | INFO | 127.0.0.1 - - [08/Jul/2025 22:33:21] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:33:21,897 | INFO | 127.0.0.1 - - [08/Jul/2025 22:33:21] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:34:02,305 | INFO | 127.0.0.1 - - [08/Jul/2025 22:34:02] "GET / HTTP/1.1" 200 -
+2025-07-08 22:34:02,349 | INFO | 127.0.0.1 - - [08/Jul/2025 22:34:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:34:02,568 | INFO | 127.0.0.1 - - [08/Jul/2025 22:34:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:34:02,653 | INFO | 127.0.0.1 - - [08/Jul/2025 22:34:02] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:34:02,654 | INFO | 127.0.0.1 - - [08/Jul/2025 22:34:02] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:34:02,916 | INFO | 127.0.0.1 - - [08/Jul/2025 22:34:02] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:35:05,219 | INFO | 127.0.0.1 - - [08/Jul/2025 22:35:05] "GET / HTTP/1.1" 200 -
+2025-07-08 22:35:05,257 | INFO | 127.0.0.1 - - [08/Jul/2025 22:35:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:35:05,469 | INFO | 127.0.0.1 - - [08/Jul/2025 22:35:05] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:35:05,564 | INFO | 127.0.0.1 - - [08/Jul/2025 22:35:05] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:35:05,610 | INFO | 127.0.0.1 - - [08/Jul/2025 22:35:05] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:35:05,617 | INFO | 127.0.0.1 - - [08/Jul/2025 22:35:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:37:06,926 | INFO | 127.0.0.1 - - [08/Jul/2025 22:37:06] "GET / HTTP/1.1" 200 -
+2025-07-08 22:37:06,974 | INFO | 127.0.0.1 - - [08/Jul/2025 22:37:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:37:07,189 | INFO | 127.0.0.1 - - [08/Jul/2025 22:37:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:37:07,278 | INFO | 127.0.0.1 - - [08/Jul/2025 22:37:07] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:37:07,282 | INFO | 127.0.0.1 - - [08/Jul/2025 22:37:07] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:37:07,541 | INFO | 127.0.0.1 - - [08/Jul/2025 22:37:07] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:40:16,059 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:16] "GET / HTTP/1.1" 200 -
+2025-07-08 22:40:16,101 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:40:16,309 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:16] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:40:16,410 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:16] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:40:16,431 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:16] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:40:16,500 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:40:19,247 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:19] "GET / HTTP/1.1" 200 -
+2025-07-08 22:40:19,288 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:19] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:40:19,499 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:40:19,591 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:19] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:40:19,594 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:19] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:40:19,817 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:19] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:40:21,976 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:21] "GET / HTTP/1.1" 200 -
+2025-07-08 22:40:22,006 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:40:22,227 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:40:22,311 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:22] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:40:22,313 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:22] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:40:22,566 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:22] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:40:47,686 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:47] "GET / HTTP/1.1" 200 -
+2025-07-08 22:40:47,724 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:40:47,936 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:40:48,025 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:48] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:40:48,034 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:48] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:40:48,264 | INFO | 127.0.0.1 - - [08/Jul/2025 22:40:48] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:41:03,491 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:03] "GET / HTTP/1.1" 200 -
+2025-07-08 22:41:03,591 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:41:03,742 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:03] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:41:03,831 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:03] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:41:03,835 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:03] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:41:03,871 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:41:05,821 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:05] "GET / HTTP/1.1" 200 -
+2025-07-08 22:41:06,121 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-08 22:41:06,162 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:06] "GET /static/images/BUITEMS_logo.png HTTP/1.1" 200 -
+2025-07-08 22:41:06,163 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:06] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-08 22:41:06,167 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:06] "GET /static/images/BUITEMS_logo2.png HTTP/1.1" 200 -
+2025-07-08 22:41:06,430 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 22:41:08,754 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:08] "OPTIONS /get_response HTTP/1.1" 200 -
+2025-07-08 22:41:08,758 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:08] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:41:11,373 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:11] "POST /get_response HTTP/1.1" 200 -
+2025-07-08 22:41:12,858 | INFO | 127.0.0.1 - - [08/Jul/2025 22:41:12] "POST /get_response HTTP/1.1" 200 -

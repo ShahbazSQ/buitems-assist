@@ -26,6 +26,8 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 /* Animated Background */
@@ -228,7 +230,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background: #002147;
-  padding: 12px 30px;
+  padding: 12px 16px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -238,7 +240,10 @@ body {
 }
 
 
-.nav-left,
+.nav-left{
+  display: flex;
+  align-items: center;
+}
 .nav-right {
   min-width: 160px; /* match logo width for true centering */
   display: flex;
@@ -258,7 +263,7 @@ body {
 }
 
 .nav-left .logo {
-  height: 45px;
+  height: 40px;
   transition: transform 0.3s ease;
 }
 .nav-left .logo:hover {
@@ -382,6 +387,7 @@ body {
   overflow: hidden;
   padding: 0;
   transition: all 0.3s ease-in-out;
+  
 }
 
 
@@ -524,6 +530,34 @@ header p {
     fill: currentColor;
 }
 
+
+@media (max-width: 480px) {
+  .chat-container {
+    max-width: 95%;
+    height: 85vh;
+  }
+
+  .input-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .input-actions {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #sendBtn, #micBtn {
+    margin-left: 0;
+  }
+
+  #userInput {
+    width: 100%;
+  }
+}
+
 /* Footer */
 footer {
     background: #002147;
@@ -534,6 +568,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    /* bottom: auto; */
 }
 
 footer a {
@@ -835,6 +870,13 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
 }
 
+@media (max-width: 480px) {
+  .smart-suggestions button {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+}
+
 @keyframes slideUpFadeIn {
   from {
     opacity: 0;
@@ -868,6 +910,7 @@ footer {
   font-family: 'Roboto', sans-serif;
   transition: all 0.3s ease-in-out;
   padding: 20px 24px 20px 20px;
+  
 }
 
 .banner::before {
@@ -897,3 +940,521 @@ footer {
 
 
 
+
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  font-size: 26px;
+  color: #FFD700;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Collapse Menu Styles for Mobile */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-center ul {
+    display: none;
+    flex-direction: column;
+    background-color: #002147;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+    border-top: 1px solid #004080;
+  }
+
+  .nav-center ul.show {
+    display: flex;
+  }
+
+  .nav-right {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .admin-btn {
+    width: 80%;
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    font-size: 26px;
+    color: #FFD700;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .nav-center ul {
+    display: none;
+    flex-direction: column;
+    background: #002147;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-top: 1px solid #004080;
+  }
+
+  .nav-center ul.show {
+    display: flex;
+  }
+
+  .nav-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .admin-btn {
+    width: 80%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 26px;
+    color: #FFD700;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  .nav-center ul {
+    display: none;
+    flex-direction: column;
+    background-color: #002147;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+    border-top: 1px solid #004080;
+  }
+
+  .nav-center ul.show {
+    display: flex;
+  }
+
+  .nav-center ul li a {
+    display: block;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #f0f0f0;
+    text-align: center;
+  }
+
+  .nav-center ul li a.admin-link {
+    background: #FFD700;
+    color: #002147;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+}
+
+
+/* Default: Hide mobile admin link on desktop */
+.admin-mobile {
+  display: none;
+}
+
+/* Show mobile admin link, hide desktop button on mobile */
+@media (max-width: 768px) {
+  .nav-right {
+    display: none;
+  }
+
+  .admin-mobile {
+    display: block;
+  }
+
+  .admin-mobile a {
+    background: #FFD700;
+    color: #002147;
+    font-weight: 600;
+    padding: 10px 16px;
+    display: block;
+    margin: 10px 20px;
+    border-radius: 6px;
+    text-align: center;
+  }
+}
+
+
+.hamburger {
+  display: none;
+}
+
+/* Mobile fixes */
+@media (max-width: 768px) {
+  .main-navbar {
+    height: 56px; /* reduce navbar height on mobile */
+    padding: 8px 12px;
+  }
+
+  .logo {
+    height: 36px; /* smaller logo */
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 26px;
+    cursor: pointer;
+    margin-left: auto;
+    color: #FFD700;
+  }
+
+  .nav-left {
+    flex: 1;
+  }
+
+  .nav-center ul {
+    display: none;
+    flex-direction: column;
+    background-color: #002147;
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px 0;
+  }
+
+  .nav-center ul.show {
+    display: flex;
+  }
+
+  /* Align hamburger to right and logo to left */
+  .main-navbar {
+    flex-wrap: nowrap;
+  }
+
+  .main-navbar > .nav-left {
+    order: 1;
+  }
+
+  .main-navbar > .hamburger {
+    order: 2;
+  }
+
+  .nav-right {
+    display: none; /* hide right side Admin on mobile */
+  }
+
+  .admin-mobile {
+    display: block;
+  }
+
+  .admin-mobile a {
+    background: #FFD700;
+    color: #002147;
+    font-weight: 600;
+    padding: 10px 16px;
+    display: block;
+    margin: 10px 20px;
+    border-radius: 6px;
+    text-align: center;
+  }
+}
+
+/* Force minimal navbar height on mobile */
+@media (max-width: 768px) {
+  .main-navbar {
+    height: 48px !important;
+    padding: 4px 12px !important;
+    overflow: hidden;
+  }
+
+  .logo {
+    height: 30px !important;
+    max-height: 3=0px !important;
+    width: auto;
+    object-fit: contain;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block;
+  }
+
+  .hamburger {
+    font-size: 22px;
+    line-height: 1;
+  }
+}
+.hamburger {
+  display: block;
+  font-size: 24px;
+  cursor: pointer;
+  color: #FFD700;
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+/* === Mobile-only styles === */
+@media (max-width: 768px) {
+  .mobile-menu {
+    display: none;
+    background-color: #002147;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 10px 0;
+    border-radius: 0 0 12px 12px;
+  }
+
+  .mobile-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile-menu li a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .mobile-menu li a:hover {
+    background-color: #003366;
+  }
+
+  .main-navbar .nav-center,
+  .main-navbar .nav-right {
+    display: none;
+  }
+}
+
+
+/* Fix hamburger position and styling */
+.hamburger {
+  display: none; /* Hide by default for desktop */
+  font-size: 28px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  cursor: pointer;
+  color: white;
+  background: none;
+  border: none;
+}
+
+/* Mobile visibility and stacking fix */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-center,
+  .nav-right {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 9998;
+  }
+
+  .mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-menu ul li {
+    margin: 10px 0;
+  }
+
+  .mobile-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+}
+
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  cursor: pointer;
+  color: white;
+  background: none;
+  border: none;
+}
+
+/* Mobile-only fix */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-center,
+  .nav-right {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 9998;
+  }
+
+  .mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-menu ul li {
+    margin: 10px 0;
+  }
+
+  .mobile-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+}
+
+
+/* HAMBURGER ONLY ON MOBILE */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10000;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* Make it work on mobile */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-center,
+  .nav-right {
+    display: none !important;
+  }
+
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    background: rgba(0, 0, 0, 0.95);
+    padding: 15px;
+    z-index: 9999;
+    border-radius: 8px;
+  }
+
+  .mobile-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile-menu ul li {
+    margin-bottom: 10px;
+  }
+
+  .mobile-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+}
+
+
+/* Hide mobile menu by default */
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15px 20px;
+    z-index: 9999;
+    border-radius: 10px;
+}
+
+/* Show mobile menu when 'visible' class is toggled */
+.mobile-menu.visible {
+    display: block;
+}
+
+/* Make hamburger appear on mobile */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    z-index: 10000;
+    cursor: pointer;
+    color: white;
+}
+
+/* Only show hamburger on small screens */
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-center,
+    .nav-right {
+        display: none;
+    }
+
+    .mobile-menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mobile-menu ul li {
+        margin: 12px 0;
+    }
+
+    .mobile-menu ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+}
