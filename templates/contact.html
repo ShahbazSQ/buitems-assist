@@ -1,138 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - BUITEMS Chatbot</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        .contact-header {
-            background-color: #003366;
-            color: white;
-            text-align: center;
-            padding: 50px 20px;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - BUITEMS Chatbot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-        .contact-header h1 {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
 
-        .cards-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            background-color: #003366;
-            padding: 40px 20px;
-        }
+    nav {
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(8px);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
 
-        .contact-card {
-            background: white;
-            color: #003366;
-            width: 280px;
-            margin: 15px;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin: 0;
+      padding: 20px 0;
+    }
 
-        .contact-card h2 {
-            margin-bottom: 10px;
-            font-size: 20px;
-        }
+    nav ul li a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 16px;
+      transition: 0.3s;
+    }
 
-        .contact-card p {
-            margin: 5px 0;
-        }
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #FFD700;
+    }
 
-        .message-form {
-            max-width: 600px;
-            margin: 40px auto;
-            padding: 20px;
-        }
+    .contact-header {
+      text-align: center;
+      padding: 80px 20px 40px;
+      max-width: 2200px;
+      background: linear-gradient(135deg, #1c1c1c, #003366);
+      border-bottom: 4px solid #FFD700;
+      margin: 0 auto;
+    }
 
-        .message-form h2 {
-            text-align: center;
-            margin-bottom: 20px;
-            color: #003366;
-        }
+    .contact-header h1 {
+      font-size: 48px;
+      color: #FFD700;
+      margin-bottom: 10px;
+    }
 
-        .message-form form {
-            display: flex;
-            flex-direction: column;
-        }
+    .contact-header p {
+      font-size: 18px;
+      color: #eee;
+    }
 
-        .message-form input, .message-form textarea {
-            margin-bottom: 15px;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            font-size: 16px;
-        }
+    .contact-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 60px 20px;
+      gap: 60px;
+    }
 
-        .message-form button {
-            background-color: #003366;
-            color: white;
-            padding: 12px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
 
-        .message-form button:hover {
-            background-color: #0055aa;
-        }
-    </style>
+    .contact-card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px 25px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      backdrop-filter: blur(12px);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      width: 280px;
+    }
+
+    .contact-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.4);
+    }
+
+    .contact-card h2 {
+      font-size: 20px;
+      color: #FFD700;
+      margin-bottom: 10px;
+    }
+
+    .contact-card p,
+    .contact-card a {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #eee;
+      text-decoration: none;
+    }
+
+    .message-form {
+      background: white;
+      color: #222;
+      padding: 35px;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+    }
+
+    .message-form h2 {
+      text-align: center;
+      color: #003366;
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+
+    .message-form input,
+    .message-form textarea {
+      width: 100%;
+      padding: 12px 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    .message-form button {
+      width: 100%;
+      background: #003366;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: 0.3s ease-in-out;
+      cursor: pointer;
+    }
+
+    .message-form button:hover {
+      background: #0055aa;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #002244;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #FFD700;
+      text-decoration: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .contact-wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+      }
+
+      .cards-container {
+        width: 100%;
+        max-width: 420px;
+        align-items: center;
+      }
+    }
+  </style>
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li><a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">Chatbot</a></li>
-    <li><a href="{{ url_for('about') }}" class="{% if request.endpoint == 'about' %}active{% endif %}">About Us</a></li>
-    <li><a href="{{ url_for('contact') }}" class="{% if request.endpoint == 'contact' %}active{% endif %}">Contact Us</a></li>
-        </ul>
-    </nav>
 
-    <!-- Contact Us Section -->
-    <div class="contact-header">
-        <h1>Get in Touch</h1>
-    </div>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">Chatbot</a></li>
+      <li><a href="{{ url_for('about') }}" class="{% if request.endpoint == 'about' %}active{% endif %}">About Us</a></li>
+      <li><a href="{{ url_for('contact') }}" class="{% if request.endpoint == 'contact' %}active{% endif %}">Contact Us</a></li>
+    </ul>
+  </nav>
 
+  <!-- Hero Section -->
+  <div class="contact-header">
+    <h1>Let's Connect</h1>
+    <p>Have questions? We're here to help you anytime.</p>
+  </div>
+
+  <!-- Main Contact Section -->
+  <div class="contact-wrapper">
+    <!-- Contact Cards -->
     <div class="cards-container">
-        <div class="contact-card">
-            <h2>Address</h2>
-            <p>BUITEMS Takatu Campus</p>
-            <p>Airport Road, Quetta</p>
-        </div>
-        <div class="contact-card">
-            <h2>Phone</h2>
-            <p>+92-315-8030554</p>
-            <p>Mon - Fri, 9am - 5pm</p>
-        </div>
-        <div class="contact-card">
-            <h2>Email</h2>
-            <p><a href="mailto:theshahbaz081@gmail.com">theshahbaz081@gmail.com</a></p>
-            <p><a href="mailto:qaziwaleed3711@gmail.com">qaziwaleed3711@gmail.com</a></p>
-        </div>
+      <div class="contact-card">
+        <h2>📍 Address</h2>
+        <p>BUITEMS Takatu Campus</p>
+        <p>Airport Road, Quetta</p>
+      </div>
+      <div class="contact-card">
+        <h2>📞 Phone</h2>
+        <p>+92-315-8030554</p>
+        <p>Mon - Fri, 9am - 5pm</p>
+      </div>
+      <div class="contact-card">
+        <h2>📧 Email</h2>
+        <p><a href="mailto:theshahbaz081@gmail.com">theshahbaz081@gmail.com</a></p>
+        <p><a href="mailto:qaziwaleed3711@gmail.com">qaziwaleed3711@gmail.com</a></p>
+      </div>
     </div>
 
+    <!-- Contact Form -->
     <div class="message-form">
-        <h2>Message Us</h2>
-        <form>
-            <input type="text" name="name" placeholder="Name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea rows="5" name="message" placeholder="Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+      <h2>Message Us</h2>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <footer>
-        © 2025 BUITEMS Chatbot | Designed for Students. Visit <a href="https://www.buitms.edu.pk">BUITEMS</a>.
-    </footer>
+  <!-- Footer -->
+  <footer>
+    © 2025 BUITEMS Chatbot | Designed for Students. Visit <a href="https://www.buitms.edu.pk">BUITEMS</a>.
+  </footer>
+
 </body>
 </html>

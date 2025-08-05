@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BUITEMS Chatbot</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="static/">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="campus-bg"></div>
+    <div class="logo-bg"></div>
     <!-- Animated Background -->
     <div class="background">
         <div class="bubble"></div>
@@ -17,32 +20,48 @@
         <div class="bubble"></div>
         <div class="bubble"></div>
     </div>
+<div class="animated-pulse-bg"></div>
+<div class="buitms-bg"></div>
+<div class="glass-circle circle1"></div>
+<div class="glass-circle circle2"></div>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li>
-                <a href="https://www.buitms.edu.pk" target="_blank">
-                    <img src="{{ url_for('static', filename='images/BUITEMS_logo.png') }}" alt="BUITEMS Logo" class="logo">
-                </a>
-            </li>
-            <li>
-                <a href="/admin">
-                    <button style="padding:10px 20px; background-color:#007BFF; color:white; border:none; border-radius:5px; cursor:pointer;">
-                      Go to Admin Panel
-                    </button>
-                </a>
-            </li>
-          
-    <li><a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">Chatbot</a></li>
-    <li><a href="{{ url_for('about') }}" class="{% if request.endpoint == 'about' %}active{% endif %}">About Us</a></li>
-    <li><a href="{{ url_for('contact') }}" class="{% if request.endpoint == 'contact' %}active{% endif %}">Contact Us</a></li>
-  </ul>
+<nav class="main-navbar">
+  <div class="nav-left">
+    <a href="{{ url_for('home') }}">
+      <img src="{{ url_for('static', filename='images/BUITEMS_logo.png') }}" class="logo" />
+    </a>
+    
+  </div>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <div class="nav-center">
+    <ul>
+      <li><a href="{{ url_for('home') }}" class="active">Home</a></li>
+      <li><a href="{{ url_for('about') }}">About</a></li>
+      <li><a href="{{ url_for('contact') }}">Contact</a></li>
+      <li class="admin-mobile"><a href="{{ url_for('admin') }}">Admin Panel</a></li>
 
+      
+    </ul>
+  </div>
+  
 
+  <div class="nav-right">
+    <a href="{{ url_for('admin') }}">
+      <button class="admin-btn">Admin Panel</button>
+    </a>
+  </div>
+</nav>
         </ul>
     </nav>
-
+  
+  <div class="center-stack">
+    <div id="how-to-ask-banner" class="banner" style="display:none;" role="alert">
+    <span>
+    💡 <b>How to ask:</b> Type your course, day, section, or program for best results.<br>
+    <small>Examples: "PF class Monday", "OOP lab Thursday section B", "who teaches DLD?"</small>
+    </span>
+    <button onclick="closeBanner()" style="float:right; background:none; border:none; font-size:1.2em; cursor:pointer;">&times;</button>
+    </div>
     <!-- Chatbot Container -->
     <div class="chat-container">
         <header>
@@ -69,12 +88,31 @@
             </div>
         </div>
     </div>
+  </div>
 
     <footer>
         © 2025 BUITEMS Chatbot | Designed for Students. Visit <a href="https://www.buitms.edu.pk">BUITEMS</a>.
     </footer>
 
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <div class="svg-waves">
+  <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+    <path fill="#ffffff" fill-opacity="0.15" d="M0,192L48,181.3C96,171,192,149,288,138.7C384,128,480,128,576,149.3C672,171,768,213,864,202.7C960,192,1056,128,1152,106.7C1248,85,1344,107,1392,117.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+  </svg>
+</div>
+<script>
+function closeBanner() {
+    document.getElementById("how-to-ask-banner").style.display = "none";
+    // Remove sessionStorage for now
+}
+window.onload = function() {
+    var banner = document.getElementById("how-to-ask-banner");
+    if (banner) {
+        banner.style.display = "block";
+    }
+};
+</script>
+
+</script>
 </body>
 </html>
-

@@ -1,0 +1,337 @@
+program,section,semester,course,course_code,day,start_time,end_time,room,teacher
+BS-IT,B,2nd,Dld,nan,Monday,09:00,11:00,R7,Mr.Furaj Ahmed
+BS-IT,B,2nd,Pf,Cs114,Monday,00:30,02:00,Ssg-18,Dr.Abdul Rehman
+BS-IT,B,2nd,Pf,Cs114,Tuesday,11:00,00:30,Ssg-18,Dr.Abdul Rehman
+BS-IT,B,2nd,Fm-Ii,nan,Tuesday,00:30,02:00,R5,Dr.Abdul Quayam
+BS-IT,B,2nd,Mvc,nan,Tuesday,03:00,04:30,Ssg-17,Nan
+BS-IT,B,2nd,Cn,nan,Wednesday,09:00,11:00,R4,Dr.Muhammad Bilal
+BS-IT,B,2nd,Ds,nan,Wednesday,11:00,00:30,Ssg-11,Mr.Shahrukh
+BS-IT,B,2nd,Mvc,nan,Wednesday,03:00,04:30,R8,Dr.Abdul Quayam
+BS-IT,B,2nd,Dld(Lab),nan,Thursday,09:00,00:30,Digital system lab,Mr.Furaj Ahmed
+BS-IT,B,2nd,Cn(Lab),nan,Thursday,00:30,04:30,Cisco,Engr.Muhammad Ryaz
+BS-IT,B,2nd,Ds,nan,Friday,09:00,11:00,R2,Mr.Shahrukh
+BS-IT,B,2nd,Fm-Ii,nan,Friday,11:00,00:30,R2,Nan
+BS-IT,B,2nd,Pf(Lab),Cs114,Friday,00:30,04:30,Hbl-lab1,Engr.Muhammad Haris
+BS-IT,A,2nd,Pf,Cs114,Monday,09:00,11:00,Ssg-55,Dr.Abdul Rehman
+BS-IT,A,2nd,Cn(Lab),nan,Monday,00:30,04:30,Hbl-lab1,Engr.Muhammad Ryaz
+BS-IT,A,2nd,Ds,nan,Tuesday,11:00,00:30,Ssg-11,Ms.Bushra Haq
+BS-IT,A,2nd,Dld(Lab),nan,Tuesday,00:30,04:30,Digital system lab,Dr.Rafaqat Hussain
+BS-IT,A,2nd,Dld,nan,Weednesday,09:00,11:00,Ssg-55,Dr.Rafaqat Hussain
+BS-IT,A,2nd,Fm-Ii,nan,Wednesday,11:00,00:30,Ssg-55,Nan
+BS-IT,A,2nd,Pf(Lab),Cs114,Thursday,09:00,00:30,Hbl-iii,Engr.Muhammad Haris
+BS-IT,A,2nd,Pf,Cs114,Thursday,00:30,02:00,Ssg-17,Dr.Abdul Rehman
+BS-IT,A,2nd,Mvc,nan,Thursday,03:00,04:30,Ssg-18,Mr.Ali Asghar
+BS-IT,A,2nd,Cn,nan,Friday,09:00,11:00,R1,Dr.Muhammad Bilal
+BS-IT,A,2nd,Ds,nan,Friday,11:00,00:30,R1,Ms.Bushra Haq
+BS-IT,A,2nd,Fm_Ii,nan,Friday,00:30,02:00,R1,Nan
+BS-IT,A,2nd,Mvc,nan,Friday,03:00,04:30,R1,Mr.Ali Asghar
+BS-IT,NAN,4th,Is,It-321,Monday,09:00,11:00,Cisco lab,Dr.Mehmood Baryalai
+BS-IT,NAN,4th,Os,Cs-341/l,Monday,11:00,02:00,Hbl-ii,Mr.Arsalan Ul Haq
+BS-IT,NAN,4th,P&S,Stat-101,Monday,03:00,04:30,Ssg-11,Mr.Manzoor Ahmed
+BS-IT,NAN,4th,Is,It-321,Tuesday,09:00,11:00,Hbl-iii,Dr.Mehmood Baryalai
+BS-IT,NAN,4th,Os,Cs-341/l,Tuesday,11:00,00:30,Ssg-13,Mr.Arsalan Ul Haq
+BS-IT,NAN,4th,Wt,It-332/l,Wednesday,09:00,11:00,R1,Dr.Imran
+BS-IT,NAN,4th,P&S,Stat-101,Wednesday,11:00,00:30,R1,Mr.Manzoor Ahmed
+BS-IT,NAN,4th,Popsy,nan,Wednesday,00:30,02:00,R6,Ms.Naima Wahid
+BS-IT,NAN,4th,Popsy,nan,Thursday,09:00,11:00,R8,Ms.Naima Wahid
+BS-IT,NAN,4th,Os,Cs-341/l,Thursday,11:00,00:30,Ssa-150,Mr.Arsalan Ul Haq
+BS-IT,NAN,4th,Wt,It-332/l,Thursday,00:30,02:00,Hbl-i,Dr.Imran
+BS-IT,NAN,6th,Vss,It-303/l,Monday,09:00,11:00,Fyp lab,Mr.Mehrullah Soomro
+BS-IT,NAN,6th,Itpm,Mgmt-212,Monday,11:00,00:30,R7,Mr.Irfan Maggsi
+BS-IT,NAN,6th,Itpm,Mgmt-212,Tuesday,09:00,11:00,R2,Mr.Irfan Maggsi
+BS-IT,NAN,6th,Vss,It-303/l,Tuesday,11:00,00:30,Ssg-13,Mr.Mehrullah Soomro
+BS-IT,NAN,6th,Pm,nan,Tuesday,00:30,02:00,Ssa-150,Dr.Imran
+BS-IT,NAN,6th,Dw,nan,Wednesday,09:00,11:00,R3,Dr.Mehmood Baryalai
+BS-IT,NAN,6th,Sqe,nan,Wednesday,11:00,00:30,R3,Mr.Raheem  Shah
+BS-IT,NAN,6th,Vss(Lab),It-303/l,Wednesday,00:30,04:30,Hbl-i,Mr.Mehrullah Soomro
+BS-IT,NAN,6th,Dw,nan,Thursday,09:00,11:00,R4,Dr.Mehmood Baryalai
+BS-IT,NAN,6th,Sqe,nan,Thursday,11:00,00:30,Ssg-15,Mr.Raheem  Shah
+BS-IT,NAN,6th,Pm,nan,Thursday,00:30,02:00,Hbl-iii,Dr.Imran
+BS-IT,NAN,8th,Sm,nan,Tuesday,09:00,11:00,R1,Dr.Abdul Rehman
+BS-IT,NAN,8th,Pp,Hum-302,Tuesday,11:00,00:30,R1,Dr.Imran
+BS-IT,NAN,8th,Ai,nan,Tuesday,00:30,02:00,Ssg-18,Dr.Raja Asif
+BS-IT,NAN,8th,Ai,nan,Thursday,09:00,11:00,Ssa-150,Dr.Raja Asif
+BS-IT,NAN,8th,Sm,nan,Thursday,11:00,00:30,R8,Dr.Abdul Rehman
+BS-IT,NAN,8th,Pp,Hum-302,Thursday,00:30,02:00,Ssg-55,Dr.Imran
+BS-IT,NAN,8th,E&L,nan,Thursday,03:00,04:30,Ssg-56,Mr.Irfan Maggsi
+BS-IT,NAN,8th,E&L,nan,Friday,09:00,11:00,Ssg-55,Mr.Irfan Maggsi
+BS-IT,NAN,8th,Fyp-Ii(Lab),nan,Friday,11:00,02:00,Fyp lab,Dr.Mehmood Baryalai
+BS-ELE,A,2nd,De,MATHAP-214,Monday,09:30,11:00,SSG 11,Dr. Muhammad Anas
+BS-ELE,A,2nd,Cp,nan,Monday,11:00,00:30,SSG 11,Mr.Amir
+BS-ELE,A,2nd,Ewp(Lab),nan,Tuesday,09:30,00:30,ELECTRICAL MACHINE LAB,Engr. Hidayat Ullah
+BS-ELE,A,2nd,Ps,nan,Wednesday,09:30,11:00,R1,Dr. Mohd Naeem
+BS-ELE,A,2nd,Cp(Lab),nan,Wednesday,11:00,02:00,SOFTWARE LAB,Engr. Mugheera Ali
+BS-ELE,A,2nd,Cp,nan,Wednesday,03:00,04:30,SSG 11,Mr .Amir Shahzad
+BS-ELE,A,2nd,De,MATHAP-214,Thursday,09:30,11:00,R3,Dr. Muhammad Anas
+BS-ELE,A,2nd,Edc,ELE-208,Thursday,11:00,00:30,R6,Mr. Humayoun Khan
+BS-ELE,A,2nd,Edc(Lab),ELE-208L,Friday,09:30,00:30,BASIC ELECTRONICS,Engr. Zahid Khan
+BS-ELE,A,2nd,Edc,ELE-208L,Friday,00:30,02:00,SSG 17,Mr. Humayoun Khan
+BS-ELE,B,2nd,Ps,nan,Monday,09:30,11:00,R4,Dr Naeem
+BS-ELE,B,2nd,De,MATHAP-214,Monday,11:00,00:30,R4,Dr. Muhammad Anas
+BS-ELE,B,2nd,Cp,nan,Monday,03:00,04:30,CISCO LAB,Mr. Amir Shahzad
+BS-ELE,B,2nd,Edc(Lab),ELE-208L,Tuesday,09:30,00:30,BASIC ELECTRONICS,Engr. Zahid Khan
+BS-ELE,B,2nd,Edc,ELE-208,Tuesday,03:00,04:30,SSG 11,Mr. Humayoun Khan
+BS-ELE,B,2nd,Cp,nan,Wednesday,11:00,00:30,SSG 13,Mr .Amir Shahzad
+BS-ELE,B,2nd,Cp(Lab),nan,Thursday,09:30,00:30,SOFTWARE LAB,Engr. Mugheera Ali
+BS-ELE,B,2nd,Edc,ELE-208,Thursday,03:00,04:30,R6,Mr. Humayoun Khan
+BS-ELE,B,2nd,Ewp(Lab),nan,Friday,09:30,00:30,ELECTRICAL MACHINE LAB,Engr. Hidayat Ullah
+BS-ELE,B,2nd,De,MATHAP-214,Friday,00:30,02:00,SSG 13,Dr. Muhammad Anas
+BS-ELE,A,4th,Pe,nan,Monday,09:30,11:00,SSA-150,Mr . Atifullah Khan
+BS-ELE,A,4th,Es(Lab),ELE-425L,Monday,11:00,02:00,CISCO LAB,Eng. Haris Shahbaz
+BS-ELE,A,4th,S&S,ELE-261,Monday,03:00,04:30,SSG-18,Dr. Adil Israr
+BS-ELE,A,4th,Es,ELE-425,Tuesday,11:00,00:30,R5,Mr. Zia Javed
+BS-ELE,A,4th,S&S,ELE-261,Tuesday,00:30,02:00,SSG-17,Dr. Adil Israr
+BS-ELE,A,4th,Eft,ELE-213,Wednesday,09:30,11:00,SSG-55,Mr. Umar Siddiqui
+BS-ELE,A,4th,Pme,ELE-202,Wednesday,11:00,00:30,SSG-61,Mr. Kalsoom Baloch
+BS-ELE,A,4th,Es,ELE-425,Wednesday,00:30,02:00,SSG-55,Mr. Zia Javed
+BS-ELE,A,4th,S&S(Lab),ELE-261L,Thursday,09:30,00:30,CISCO LAB,Engr. Zahid Khan
+BS-ELE,A,4th,Pme,ELE-202,Thursday,00:30,02:00,R8,Ms. Kalsoom Baloch
+BS-ELE,A,4th,Eft,ELE-213,Thursday,03:00,04:30,R8,Mr. Umar Siddiqui
+BS-ELE,B,4th,Pme,ELE-202,Monday,09:30,11:00,SSG-18,Ms. Kalsoom Baloch
+BS-ELE,B,4th,S&S,ELE-261,Monday,11:00,00:30,SSG-17,Dr. Adil Israr
+BS-ELE,B,4th,Pe,nan,Tuesday,09:30,11:00,R5,Mr. Atifullah Khan
+BS-ELE,B,4th,Es(Lab),ELE-425L,Tuesday,11:00,02:00,SOFTWARE LAB,Engr. Haris Shahbaz
+BS-ELE,B,4th,Es,ELE-425,Tuesday,03:00,04:30,SSG-13,Mr. Zia Javed
+BS-ELE,B,4th,S&S(Lab),ELE-261L,Wednesday,09:30,00:30,CISCO LAB,Engr. Zahid Khan
+BS-ELE,B,4th,Eft,ELE-213,Wednesday,00:30,02:00,R6,Mr. Umar Siddiqui
+BS-ELE,B,4th,Es,ELE-425,Wednesday,03:00,04:30,SSG-55,Mr. Zia Javed
+BS-ELE,B,4th,S&S,ELE-261,Thursday,09:30,11:00,R6,Dr.Adil Israr
+BS-ELE,B,4th,Pme,ELE-202,Thursday,11:00,00:30,SSG-55,Ms. Kalsoom Baloch
+BS-ELE,B,4th,Eft,ELE-213,Thursday,00:30,02:00,SSG-56,Mr. Umar Siddiqui
+BS-ELE,A,6th,Pdu,nan,Monday,09:30,11:00,R6,Dr. Waleed Raza
+BS-ELE,A,6th,Cs(Lab),TE-314L,Monday,11:00,02:00,COMMUNICATION SYSTEM LAB,Engr. Ali Israr
+BS-ELE,A,6th,Ccn,nan,Monday,03:00,04:30,R5,Dr. Muhammad Bilal
+BS-ELE,A,6th,Ob,nan,Tuesday,09:30,11:00,R4,Mr. Muhammad Bux
+BS-ELE,A,6th,Pdu,nan,Tuesday,11:00,02:00,POWER SYTEM LAB,Engr. Mugheera Ali
+BS-ELE,A,6th,Ccn,nan,Tuesday,03:00,04:30,R5,Dr. Muhammad Bilal
+BS-ELE,A,6th,Lcs,ELE-214,Wednesday,11:00,00:30,R6,Dr. Sara Ayub
+BS-ELE,A,6th,Pdu,nan,Wednesday,00:30,02:00,HBL LAB-IV,Dr. Waleed Raza
+BS-ELE,A,6th,Cs,TE-314,Wednesday,03:00,04:30,SSG-18,Dr. Humayoun Shahwani
+BS-ELE,A,6th,Cs,TE-314,Thursday,11:00,00:30,SSG-18,Dr. Humayoun Shahwani
+BS-ELE,A,6th,Lcs(Lab),ELE-214L,Thursday,00:30,04:30,SSC LAB II CLOUD COMPUTING LAB,Engr. Muhammad Haris
+BS-ELE,A,6th,Lcs,ELE-214,Friday,09:30,11:00,R8,Dr. Sara Ayub
+BS-ELE,A,6th,Ccn(Lab),nan,Friday,11:00,02:00,CISCO LAB,Engr. Ali Israr
+BS-ELE,B,6th,Pdu(Lab),nan,Monday,09:30,00:30,POWER SYTEM LAB,Eng.Mugheera Ali
+BS-ELE,B,6th,Ccn,nan,Monday,00:30,02:00,SSA-150,Dr. Muhammad Bilal
+BS-ELE,B,6th,Pdu,nan,Tuesday,09:30,11:00,R3,Dr. Waleed Raza
+BS-ELE,B,6th,Ccn(Lab),nan,Tuesday,11:00,02:00,CISCO LAB,Engr. Ali Israr
+BS-ELE,B,6th,Cs,TE-314,Tuesday,03:00,04:30,R3,Dr.Zahid Rauf
+BS-ELE,B,6th,Lcs,ELE-214,Wednesday,09:30,11:00,R5,Dr. Sara Ayub
+BS-ELE,B,6th,Pdu,nan,Wednesday,11:00,00:30,R5,Dr.Waleed  Raza
+BS-ELE,B,6th,Ccn,nan,Wednesday,00:30,02:00,SSG-13,Dr. Muhammad Bilal
+BS-ELE,B,6th,Cs,TE-314,Wednesday,03:00,04:30,R3,Dr. Zahid Rauf
+BS-ELE,B,6th,Ob,nan,Thursday,09:30,11:00,SSG-61,Mr. Muhammad Bux
+BS-ELE,B,6th,Cs(Lab),TE-314L,Thursday,11:00,02:00,COMMUNICATION SYSTEM LAB,Engr. Ali Israr
+BS-ELE,B,6th,Lcs(Lab),ELE-214L,Friday,09:30,00:30,HBL LAB-I,Engr. Muhammad Haris
+BS-ELE,B,6th,Lcs,ELE-214,Friday,00:30,02:00,R2,Dr. Sara Ayub
+BS-ELE,A,8th,Ee,nan,Monday,09:30,11:00,SSG 56,Dr. Faizullah Khan
+BS-ELE,A,8th,Psp,nan,Monday,11:00,00:30,SSG-61,Dr. Fazal Mohammad
+BS-ELE,A,8th,Psp,nan,Tuesday,09:30,11:00,SSG-61,Dr. Saeed Ahmad Magsi
+BS-ELE,A,8th,Ee,nan,Tuesday,11:00,00:30,SSG-61,Dr.Faizullah Khan
+BS-ELE,A,8th,Pe,nan,Tuesday,00:30,02:00,SSG-61,Mr. Hamid Kareem
+BS-ELE,A,8th,Sdp-Ii,ELE-437,Wednesday,09:30,00:30,ADVANCE TELECOM LAB,Dr. Muhammad Shoaib Ali
+BS-ELE,A,8th,Pe,nan,Wednesday,00:30,02:00,R6,Mr. Hamid Kareem
+BS-ELE,A,8th,Ai,nan,Wednesday,03:00,04:30,R7,Dr. Saeed Ahmad Magsi
+BS-ELE,A,8th,Psp,nan,Thursday,09:30,11:00,SSG-11,Dr. Fazal Mohammad
+BS-ELE,A,8th,Psp,nan,Thursday,11:00,02:00,POWER SYSTEM LAB,Engr. Haris Shahbaz
+BS-ELE,B,8th,Psp,nan,Monday,09:30,11:00,SSG-56,Dr. Fazal Mohammad
+BS-ELE,B,8th,Ee,nan,Monday,11:00,00:30,SSG-61,Dr. Faizullah Khan
+BS-ELE,B,8th,Ee,nan,Tuesday,09:30,11:00,SSG-13,Dr. Faizullah Khan
+BS-ELE,B,8th,Sdp-Ii,ELE-437,Tuesday,11:00,02:00,ADVANCE TELECOM LAB,Dr. Muhammad Shoaib Ali
+BS-ELE,B,8th,Ai,nan,Tuesday,03:00,04:30,R2,Dr. Saeed Ahmad Magsi
+BS-ELE,B,8th,Ai,nan,Wednesday,09:30,11:00,R7,Dr. Saeed Ahmad Magsi
+BS-ELE,B,8th,Psp,nan,Wednesday,11:00,02:00,POWER SYSTEM LAB,Engr. Haris Shahbaz
+BS-ELE,B,8th,Pe,nan,Wednesday,03:00,04:30,R2,Mr. Hamid Kareem
+BS-ELE,B,8th,Psp,nan,Thursday,11:00,00:30,SSG-11,Dr. Fazal Mohammad
+BS-ELE,B,8th,Pe,nan,Thursday,00:30,02:00,R3,Mr. Hamid Kareem
+BS-CE,NAN,2nd,Ecd(Lab),ECD(lab) 1ode,Monday,11:00,00:30,BASIC ELECTRONICE LAB,Dr.Shanila Azhar
+BS-CE,NAN,2nd,Cp,CS 112,Monday,03:00,04:30,R7,Mr.Akram Khan
+BS-CE,NAN,2nd,La,MATHP 111,Tuesday,09:00,11:00,R7,Mr.Jalal Ud Din
+BS-CE,NAN,2nd,Ecd,EE 221,Tuesday,11:00,00:30,R7,Dr.Shanila Azhar
+BS-CE,NAN,2nd,Cp,CS 112,Tuesday,00:30,02:00,R7,Mr.Akram Khan
+BS-CE,NAN,2nd,Lca,EE 203,Tuesday,03:00,04:30,R7,Engr.Hidyatullah
+BS-CE,NAN,2nd,Lca,EE 203,Wednesday,09:30,00:30,BASIC ELECTRONICE LAB,Engr.Hidyatullah
+BS-CE,NAN,2nd,Cps,nan,Wednesday,00:30,02:00,DIGITAL SYATEM LAB,Nan
+BS-CE,NAN,2nd,Lca,EE 203,Thursday,11:00,00:30,SSG  13,Engr.Hidyatullah
+BS-CE,NAN,2nd,Ecd,EE 221,Thursday,00:30,02:00,R1,Dr.Shanila Azhar
+BS-CE,NAN,2nd,Psgp,HUM 102,Friday,09:30,11:00,R7,Nan
+BS-CE,NAN,2nd,Cp(Lab),CS112L,Friday,11:00,00:30,HBL LAB-III,Mr.Akram Khan
+BS-CE,NAN,4th,Coa,CS 211,Monday,09:30,11:00,HBL LAB-III,Dr.Shafiullah
+BS-CE,NAN,4th,Dsa,CS 214,Monday,11:00,02:00,HBL LAB-III,Engr.Farhan Aftab
+BS-CE,NAN,4th,De,MATHA 214,Monday,03:00,04:30,R4,Mr.Najeebullah
+BS-CE,NAN,4th,S&S(Lab),nan,Tuesday,09:30,00:30,HBL LAB-I,Engr.Zain Nadeem
+BS-CE,NAN,4th,Dsa,CS 214,Tuesday,00:30,02:00,HBL LAB-I,Engr.Farhan Aftab
+BS-CE,NAN,4th,De,nan,Tuesday,03:00,04:30,SSG-61,Mr.Najeebullah
+BS-CE,NAN,4th,Dsa,nan,Wednesday,09:30,11:00,HBL LAB-II,Engr.Farhan Aftab
+BS-CE,NAN,4th,Coa(Lab),CS 211L,Wednesday,11:00,02:00,HBL LAB-II,Engr.Muhammad Ryaz
+BS-CE,NAN,4th,S&S,EE 261,Wednesday,03:00,04:00,SSG-61,Dr.Muhammad Shoaib Ali
+BS-CE,NAN,4th,S&S,EE 261,Thursday,09:30,11:00,SSG-18,Dr.Muhammad Shoaib Ali
+BS-CE,NAN,4th,We,nan,Thursday,11:00,00:30,HBL LAB-IV,Mr.Akram Khan
+BS-CE,NAN,4th,We,nan,Thursday,00:30,02:00,HBL LAB-IV,Mr.Akram Khan
+BS-CE,NAN,4th,Coa,CS 211,Thursday,03:00,04:30,SSG-61,Dr.Shafiullah
+BS-CE,NAN,6th,Dbms(Lab),CS 331L,Monday,09:30,00:30,HBL LAB-I,Engr.Muhammad Ryaz
+BS-CE,NAN,6th,Pme,MATHA217,Monday,00:30,02:00,SSG-56,Dr.Raza Ali
+BS-CE,NAN,6th,Se,nan,Monday,03:00,04:30,SSG-56,Dr.Aadil Siddiqui
+BS-CE,NAN,6th,Dsd,EE 302,Tuesday,09:30,11:00,SSG-56,Mr.Arsalan Ul Haq
+BS-CE,NAN,6th,Pme,MATHA217,Tuesday,11:00,00:30,SSG-56,Dr.Raza Ali
+BS-CE,NAN,6th,Ids,nan,Tuesday,00:30,02:00,SSA-150,Dr.Sibghat Ullah
+BS-CE,NAN,6th,Se,nan,Tuesday,03:00,04:30,SSG-56,Dr.Aadil Siddiqui
+BS-CE,NAN,6th,Dsd(Lab),EE 302L,Wednesday,09:30,00:30,HBL LAB-IV,Mr.Arsalan Ul Haq
+BS-CE,NAN,6th,Dbms,CS 331,Wednesday,00:30,02:00,SSG-11,Dr.Shafiullah
+BS-CE,NAN,6th,Ids,nan,Wednesday,03:00,04:30,SSA-150,Dr.Sibghat Ullah
+BS-CE,NAN,6th,Dsd,EE 302,Thursday,09:30,11:00,SSG-56,Dr.Sibghat Ullah
+BS-CE,NAN,6th,Dbms,CS 331,Thursday,11:00,00:30,R4,Dr.Shafiullah
+BS-CE,NAN,8th,Cc,nan,Monday,09:30,11:00,R8,Dr.Jan Muhammad
+BS-CE,NAN,8th,Psy&Hb,nan,Monday,11:00,00:30,R8,Ms.Naima Wahid
+BS-CE,NAN,8th,Pp&E,nan,Monday,00:30,02:00,R8,Dr.Jameel Ahmed
+BS-CE,NAN,8th,Cc,nan,Tuesday,09:30,11:00,R8,Dr.Jan Muhammad
+BS-CE,NAN,8th,Psy&Hb,nan,Tuesday,11:00,00:30,R8,Ms.Naima Wahid
+BS-CE,NAN,8th,Iot,nan,Tuesday,00:30,02:00,R1,Dr.Shanila Azhar
+BS-CE,NAN,8th,Pp&E,nan,Tuesday,03:00,04:30,R8,Dr.Jameel Ahmed
+BS-CE,NAN,8th,Sdp-Ii,CE 452L,Wednesday,11:00,02:00,FYP LAB,Dr.Shanila Azhar
+BS-CE,NAN,8th,Iot,nan,Thursday,11:00,00:30,R5,Dr.Shanila Azhar
+BS-SE,NAN,2nd,Wd,CS-119,Monday,09:30,11:00,SSG13,Mr.Adnan Ali
+BS-SE,NAN,2nd,Ds,MATHA-234,Monday,11:00,00:30,SSG13,Mr.Shahrukh
+BS-SE,NAN,2nd,Pf,CS-114,Monday,00:30,02:00,SSG13,Mr.Adnan Ali
+BS-SE,NAN,2nd,Cps,ENG-361,Tuesday,09:30,11:00,SSG13,Ms.Naaz Khatoon
+BS-SE,NAN,2nd,Pf(Lab),CS-114,Tuesday,11:00,02:00,HBL LAB-III,Mr.Adnan Ali
+BS-SE,NAN,2nd,Cag,MATHP-118,Tuesday,03:00,04:30,R1,Engr.Farhan Aftab
+BS-SE,NAN,2nd,Cps,ENG-361,Wednesday,09:30,11:00,SSG  13,Ms.Naaz Khatoon
+BS-SE,NAN,2nd,Wd(Lab),CS-119,Wednesday,11:00,02:00,HBL LAB-III,Engr.Farhan Aftab
+BS-SE,NAN,2nd,Pf,CS-114,Wednesday,03:00,04:30,SSG  13,Mr.Adnan Ali
+BS-SE,NAN,2nd,Psgp,HuM-102,Friday,09:30,11:00,SSG-56,Dr.Muhammad Naeem
+BS-SE,NAN,2nd,Ds,MATHA-234,Friday,11:00,00:30,SSG-56,Engr.Farhan Aftab
+BS-SE,NAN,2nd,Cag,MATHP-118,Friday,00:30,02:00,SSG-56,Mr.Shahrukh
+BS-SE,NAN,4th,Hci,IT-3XX,Monday,09:30,11:00,SSG-17,Mr.Raheem Shah
+BS-SE,NAN,4th,Sda(Lab),SE-231,Monday,11:00,02:00,HBL LAB-IV,Engr.Laila
+BS-SE,NAN,4th,Pom,MGMT-206,Monday,03:00,04:30,SSG-17,Dr.Abdul Wahid
+BS-SE,NAN,4th,Dsa,nan,Tuesday,09:30,11:00,HBL LAB-II,Mr.Muhammad Atif
+BS-SE,NAN,4th,Hci(Lab),IT-3XX,Tuesday,11:00,02:00,HBL LAB-II,Engr.Laila
+BS-SE,NAN,4th,Cv,nan,Tuesday,03:00,04:30,SSG-18,Dr.Akbar Khan
+BS-SE,NAN,4th,Cvt,MATHA-213,Wednesday,09:30,11:00,HBL LAB-III,Ms.Naheeda Akhtar
+BS-SE,NAN,4th,Cv,nan,Wednesday,11:00,00:30,SSG-17,Dr.Akbar Khan
+BS-SE,NAN,4th,Dsa,nan,Wednesday,00:30,02:00,SSG-17,Mr.Muhammad Atif
+BS-SE,NAN,4th,Pom,MGMT-206,Wednesday,03:00,04:30,SSG-17,Dr.Abdul Wahid
+BS-SE,NAN,4th,Sda,SE-231,Thursday,09:30,11:00,SSG-17,Mr.Shahrukh
+BS-SE,NAN,4th,Dsa(Lab),nan,Thursday,11:00,02:00,HBL LAB-II,Engr.Farhan Aftab
+BS-SE,NAN,6th,Tbw,HUM-266,Monday,09:30,11:00,HBL LAB-IV,Dr.Anayat Ullah
+BS-SE,NAN,6th,Cn,TE-307,Monday,11:00,00:30,SSG-18,Ms.Poma
+BS-SE,NAN,6th,Iot,nan,Monday,00:30,02:00,SSG-18,Dr.Shafiullah
+BS-SE,NAN,6th,Sqe,SE-231,Monday,03:00,04:30,SSA-150,Mr.Raheem Shah
+BS-SE,NAN,6th,Sqe,SE-231,Tuesday,11:00,00:30,SSA-150,Mr.Raheem Shah
+BS-SE,NAN,6th,Cn,TE-307,Tuesday,00:30,02:00,SSG-55,Ms.Poma
+BS-SE,NAN,6th,Na(Lab),MATHA-216,Thursday,09:30,00:30,SSC II CLOUD COMUTING LAB,Engr.Laila
+BS-SE,NAN,6th,Iot,nan,Thursday,00:30,02:00,SSG-55,Dr.Shafiullah
+BS-SE,NAN,6th,Tbw,HUM-266,Friday,09:30,11:00,SSG  13,Dr.Anayat Ullah
+BS-SE,NAN,6th,Cn(Lab),TE-307,Friday,11:00,02:00,HBL LAB-IV,Engr.Laila
+BS-SE,NAN,8th,Pp,nan,Monday,11:00,00:30,SSA-150,Mr.Luqman
+BS-SE,NAN,8th,Ids,nan,Monday,00:30,02:00,SSG-55,Dr.Aadil Siddiqui
+BS-SE,NAN,8th,Nlp,nan,Monday,03:00,04:30,SSG13,Mr.Adnan Ali
+BS-SE,NAN,8th,Sdp-Ii,SE-492L,Tuesday,09:30,00:30,LIIA,Dr.Akbar Khan
+BS-SE,NAN,8th,Pp,nan,Wednesday,09:30,11:00,ADVANCE TELECOM LAB,Mr.Luqman
+BS-SE,NAN,8th,Nlp,nan,Wednesday,11:00,00:30,SSG-18,Mr.Adnan Ali
+BS-SE,NAN,8th,Hrm,nan,Wednesday,00:30,02:00,SSG-18,Ms.Qurat Ul Ain
+BS-SE,NAN,8th,Hrm,nan,Friday,09:30,11:00,R8,Ms.Qurat Ul Ain
+BS-SE,NAN,8th,Ids,nan,Friday,11:00,00:30,R8,Dr.Aadil Siddiqui
+BS-CS,A,2nd,Dld,EE-102/L,Monday,09:00,11:00,R1,Dr. Muhammad Khalid
+BS-CS,A,2nd,Ds,MATHA-234,Monday,11:00,00:30,R1,Ms.Bushra Haq
+BS-CS,A,2nd,Md-Ii,nan,Monday,00:30,02:00,R1,Nan
+BS-CS,A,2nd,Mvc,nan,Monday,03:00,04:30,R1,Dr.Ayub
+BS-CS,A,2nd,Pf,CS-114L,Tuesday,09:00,00:30,SSc comp lab II,Mr.Mir Ahmed
+BS-CS,A,2nd,Pf,CS-114,Tuesday,00:30,02:00,R2,Mr.Mir Ahmed
+BS-CS,A,2nd,Dld,EE-102/L,Wednesday,09:30,00:30,Digital system lab,Dr. Muhammad Khalid
+BS-CS,A,2nd,Pf,CS-114,Wednesday,00:30,02:00,R1,Mr.Mir Ahmed
+BS-CS,A,2nd,Cn,TE-307/L,Thursday,09:00,11:00,SSg-55,Ms.Poma
+BS-CS,A,2nd,Ds,MATHA-234,Thursday,11:00,00:30,R1,Ms.Bushra Haq
+BS-CS,A,2nd,Md-Ii,nan,Thursday,00:30,02:00,R1,Nan
+BS-CS,A,2nd,Fm-Ii,nan,Thursday,03:00,04:30,SSg-55,Nan
+BS-CS,A,2nd,Cn(Lab),TE-307/L,Friday,09:00,00:30,HBL-lab1,Ms.Poma
+BS-CS,B,2nd,Ds,MATHA-234,Monday,09:00,11:00,HBL-II,Ms.Bushra Haq
+BS-CS,B,2nd,Pf,CS-114,Monday,11:00,00:30,R2,Mr.Yahya Jan
+BS-CS,B,2nd,Mvc,nan,Monday,00:30,04:30,R6,Dr.Ayub
+BS-CS,B,2nd,Cn,TE-307/L,Tuesday,09:00,11:00,HBL-IV,Ms.Poma
+BS-CS,B,2nd,Md-Ii,nan,Tuesday,11:00,00:30,R2,Nan
+BS-CS,B,2nd,Pf(Lab),CS-114,Tuesday,00:30,04:30,SSc comp lab II,Mr.Yahya Jan
+BS-CS,B,2nd,Dld,EE-102/L,Wednesday,09:00,11:00,R8,Ms.Summaya
+BS-CS,B,2nd,Md-Ii,nan,Wednesday,11:00,00:30,R2,Nan
+BS-CS,B,2nd,Cn(Lab),TE-307/L,Wednesday,00:30,04:30,Cisco lab,Ms.Poma
+BS-CS,B,2nd,Pf,CS-114,Thursday,11:00,00:30,R2,Mr.Yahya Jan
+BS-CS,B,2nd,Ds,MATHA-234,Thursday,00:30,02:00,R2,Ms.Bushra Haq
+BS-CS,B,2nd,Dld(Lab),EE-102/L,Friday,11:00,02:00,Digital System lab,Ms.Summaya
+BS-CS,B,2nd,Mvc,nan,Friday,03:00,04:30,SSg-17,Dr.Ayub
+BS-CS,NAN,4th,Ai,nan,Monday,09:00,11:00,R2,Dr.Abdul Wahid
+BS-CS,NAN,4th,Ds,nan,Monday,11:00,00:30,R6,Ms.Sadaf
+BS-CS,NAN,4th,Ds,nan,Monday,00:30,04:30,SSc comp lab I cyber security,Ms.Sadaf
+BS-CS,NAN,4th,Coal(Lab),nan,Wednesday,09:30,00:30,HBL-I,Ms.Atiya
+BS-CS,NAN,4th,Ds,nan,Wednesday,00:30,02:00,R2,Ms.Sadaf
+BS-CS,NAN,4th,Ew,nan,Wednesday,03:00,04:30,R5,Ms.Sehar Shafi
+BS-CS,NAN,4th,Coal,nan,Thursday,09:30,11:00,SSG-13,Ms.Atiya
+BS-CS,NAN,4th,Ew,nan,Thursday,11:00,00:30,SSG-61,Ms.Sehar Shafi
+BS-CS,NAN,4th,Ai(Lab),nan,Thursday,00:30,04:30,SSc comp lab II cyber security,Dr.Abdul Wahid
+BS-CS,NAN,4th,A&F,nan,Friday,00:30,02:00,SSg-55,Mr.Zeeshan
+BS-CS,NAN,6th,Gt,nan,Monday,09:00,11:00,R3,Ms.Sadaf
+BS-CS,NAN,6th,Sda,nan,Monday,11:00,00:30,R5,Dr.Mirza Amir
+BS-CS,NAN,6th,Dm&F,nan,Monday,00:30,02:00,R7,Mr.Luqman
+BS-CS,NAN,6th,Daa,CS-424,Tuesday,09:00,11:00,R5,Dr.Saima Gull
+BS-CS,NAN,6th,Mad,nan,Tuesday,11:00,02:00,Fyp lab,Mr.Shah Zaman
+BS-CS,NAN,6th,Gt,nan,Wednesday,09:00,11:00,R2,Ms.Sadaf
+BS-CS,NAN,6th,Wt(Lab),nan,Wednesday,11:00,02:00,SSc comp lab II cloud security,Mr.Luqman
+BS-CS,NAN,6th,Mad,nan,Thursday,09:00,11:00,R7,Mr.Shah Zaman
+BS-CS,NAN,6th,Daa,CS-424,Thursday,11:00,00:30,R7,Dr.Saima Gull
+BS-CS,NAN,6th,Sda,nan,Thursday,00:30,02:00,R7,Dr.Mirza Amir
+BS-CS,NAN,6th,Wt,nan,Friday,09:00,11:00,nan,Mr.Luqman
+BS-CS,NAN,6th,Dm&F,nan,Friday,11:00,00:30,nan,Mr.Luqman
+BS-CS,NAN,8th,Ps,nan,Tuesday,09:00,11:00,SSA-150,Mr.Wali Muhammad
+BS-CS,NAN,8th,Fyp-Ii(Lab),nan,Tuesday,11:00,02:00,Communication System lab,Mr.Farhan Ilahi
+BS-CS,NAN,8th,Ids,nan,Tuesday,03:00,04:30,SSA-150,Dr.Sibghat Ullah
+BS-CS,NAN,8th,E&L,nan,Wednesday,09:00,11:00,SSA-150,Mr.Raheem Shah
+BS-CS,NAN,8th,Ml,nan,Wednesday,11:00,00:30,SSg-55,Mr.Siraj Um  Muneer
+BS-CS,NAN,8th,Ids,nan,Wednesday,00:30,02:00,SSA-150,Dr.Sibghat Ullah
+BS-CS,NAN,8th,Ml,nan,Thursday,11:00,00:30,Sg-56,Mr.Siraj Um  Muneer
+BS-CS,NAN,8th,E&L,nan,Thursday,03:00,04:30,SSA-150,Mr.Raheem Shah
+BS-EE,NAN,2nd,La,MATHP-111,Monday,11:00,00:30,R3,Mr.Jala Ud Din
+BS-EE,NAN,2nd,De,nan,Monday,00:30,02:00,R3,Muhammad  Anas
+BS-EE,NAN,2nd,I&Cp,nan,Tuesday,09:30,11:00,R6,Dr.Muhammad Naeem
+BS-EE,NAN,2nd,Cp,nan,Tuesday,11:00,00:30,R3,Dr.Babar Ali
+BS-EE,NAN,2nd,Edc,EE-208,Tuesday,00:30,02:00,R3,Mr.Humayoun Khan
+BS-EE,NAN,2nd,Wp(Lab),nan,Wednesday9:30,03:00,00:30,LIIA,Engr.Umar Mir
+BS-EE,NAN,2nd,Cps,nan,Wednesday,09:30,11:00,ssg  13,Nan
+BS-EE,NAN,2nd,Wd(Lab),nan,Wednesday,11:00,02:00,HBL lab-III,Engr.Umar Mir
+BS-EE,NAN,2nd,La,nan,Wednesday,00:30,02:00,R3,Mr.Jala Ud Din
+BS-EE,NAN,2nd,Edc(Lab),EE-208L,Thursday,09:30,00:30,Basic Electronic,Engr.Syed Muhammad Tariq
+BS-EE,NAN,2nd,De,nan,Thursday,00:30,02:00,SSG-61,Dr.Muhammad Anas
+BS-EE,NAN,2nd,Cp,nan,Thursday,00:30,02:00,SSg-17,Dr.Babar Ali
+BS-EE,NAN,2nd,Cp(Lab),nan,Friday,11:00,02:00,Software lab,Engr.Syed Muhammad Tariq
+BS-EE,NAN,2nd,Edc,EE-208,Friday,03:00,04:30,R8,Mr.Humayoun Khan
+BS-EE,NAN,4th,Ena(Lab),CE-201L,Monday,09:30,00:30,LIIA,Engr.Syed Muhammad Tariq
+BS-EE,NAN,4th,Ena,CE-201,Monday,00:30,02:00,R4,Dr.Walid
+BS-EE,NAN,4th,Cvt,MATHA-213,Monday,03:00,04:30,R3,Engr.Zain Nadeem
+BS-EE,NAN,4th,Aie,EE-491L,Tuesday,09:30,00:30,Digital System ab,Mr.Muhammad Arif
+BS-EE,NAN,4th,M&M,CE-324,Tuesday,00:30,02:00,R4,Dr.Babar Ali
+BS-EE,NAN,4th,Trw&Ps,nan,Tuesday,03:00,04:30,SSg-18,Dr.Muhammad Junaid
+BS-EE,NAN,4th,Aie,EE-491,Wednesday,09:30,11:00,SSG-61,Mr.Muhammad Arif
+BS-EE,NAN,4th,Trw&Ps,nan,Wednesday,00:30,02:00,R4,Dr.Muhammad Junaid
+BS-EE,NAN,4th,M&M,CE-324,Wednesday,03:00,04:30,R4,Dr.Babar Ali
+BS-EE,NAN,4th,M&M(Lab),CE-324L,Thursday,11:00,02:00,Micro Pro lab,Dr.Babar Ali
+BS-EE,NAN,4th,Ena,CE-201,Thursday,03:00,04:30,SSg-17,Dr.Walid
+BS-EE,NAN,6th,Eem,nan,Monday,00:30,02:00,SSG-61,Mr.Atifullah Khan
+BS-EE,NAN,6th,Pdc,nan,Monday,03:00,04:30,SSg-18,Dr.Walid
+BS-EE,NAN,6th,Pe,EE-421,Tuesday,09:30,11:00,SSg-11,Dr.Muhammad Junaid
+BS-EE,NAN,6th,Na(Lab),nan,Tuesday,11:00,02:00,HBL lab-IV,Dr.Muhammad Mehdi
+BS-EE,NAN,6th,Cs,TE-314,Tuesday,03:00,04:30,R6,Dr.Talha Mir
+BS-EE,NAN,6th,Pe,EE-421,Wednesday,11:00,00:30,R7,Dr.Muhammad Junaid
+BS-EE,NAN,6th,Eem,nan,Wednesday,00:30,02:00,SSC II cloud comuting lab,Mr.Atifullah Khan
+BS-EE,NAN,6th,Cs(Lab),TE-314L,Thursday,09:30,00:30,LIIA,Engr.Umar Mir
+BS-EE,NAN,6th,Pdc,nan,Thursday,00:30,02:00,R5,Dr.Walid
+BS-EE,NAN,6th,Cs,TE-314,Thursday,03:00,04:30,R5,Dr.Talha Mir
+BS-EE,NAN,6th,Pe(Lab),EE-421L,Friday,11:00,02:00,LIIA,Dr.Muhammad Junaid
+BS-EE,NAN,8th,Vlsid,nan,Monday,09:30,11:00,ssg-55,Dr.Walid
+BS-EE,NAN,8th,Dsp(Lab),TE-412L,Monday,11:00,02:00,software lab,Engr.Zain Nadeem
+BS-EE,NAN,8th,Dip,nan,Monday,03:00,04:30,R6,Dr.Jameel Ahmed
+BS-EE,NAN,8th,Dsp,TE-412,Tuesday,09:30,11:00,Micro Pro lab,Mr.Hamid Karim
+BS-EE,NAN,8th,Dip,nan,Tuesday,11:00,00:30,R6,Dr.Jameel Ahmed
+BS-EE,NAN,8th,Mt,nan,Tuesday,00:30,02:00,R6,Dr.Anayat Ullah
+BS-EE,NAN,8th,P&Se,nan,Wednesday,09:30,11:00,Micro Pro lab,Mr.Atifullah Khan
+BS-EE,NAN,8th,Fyp-Ii,EE-482L,Wednesday,11:00,02:00,Micro Pro lab,Dr.Abdul Ali
+BS-EE,NAN,8th,Mt,nan,Wednesday,11:00,00:30,R6,Dr.Anayat Ullah
+BS-EE,NAN,8th,Vlsid(Lab),nan,Thursday,09:30,00:20,HBL lab-I,Dr.Walid
